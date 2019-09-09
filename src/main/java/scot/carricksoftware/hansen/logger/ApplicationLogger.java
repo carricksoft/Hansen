@@ -1,6 +1,6 @@
 package scot.carricksoftware.hansen.logger;
 
-public interface HansenLogger {
+interface ApplicationLogger {
 
     void info(String message);
 

@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class HansenLoggerImplTest {
+public class ApplicationLoggerImplTest {
 
     @Test
     public void nothing() {

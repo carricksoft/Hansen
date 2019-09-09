@@ -7,8 +7,8 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
 
-        HansenLoggerImplTest.class,
-        HansenLoggerFactoryImplTest.class,
+        ApplicationLoggerImplTest.class,
+        ApplicationLoggerFactoryImplTest.class,
 
 })
 

@@ -1,9 +1,9 @@
-/home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/logger/HansenLoggerImplTest.java
+/home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImplTest.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/factories/FactoriesTestSuite.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/TestConstants.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/factories/HansenFactoryImplTest.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/TestSuite.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/logger/LoggerTestSuite.java
-/home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/logger/HansenLoggerFactoryImplTest.java
+/home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/logger/ApplicationLoggerImplTest.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/SimpleFactoryTests.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/HansenApplicationTest.java

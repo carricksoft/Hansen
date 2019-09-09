@@ -3,9 +3,9 @@ package scot.carricksoftware.hansen.logger;
 import org.springframework.stereotype.Component;
 
 @Component
-public class HansenLoggerFactoryImpl implements HansenLoggerFactory {
+class LoggerFactoryImpl implements ApplicationLoggerFactory {
 
-    private static final Object THE_ONE_LOGGER = new HansenLoggerImpl();
+    private static final Object THE_ONE_LOGGER = new ApplicationLoggerImpl();
 
     @Override
     public final Object getObject()  {
@@ -14,7 +14,7 @@ public class HansenLoggerFactoryImpl implements HansenLoggerFactory {
 
     @Override
     public final Class<?> getObjectType() {
-        return HansenLoggerImpl.class;
+        return ApplicationLoggerImpl.class;
     }
 
     @Override
