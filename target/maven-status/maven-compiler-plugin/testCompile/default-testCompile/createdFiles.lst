@@ -1,0 +1,9 @@
+scot/carricksoftware/hansen/logger/LoggerTestSuite.class
+scot/carricksoftware/hansen/HansenApplicationTest.class
+scot/carricksoftware/hansen/TestConstants.class
+scot/carricksoftware/hansen/logger/HansenLoggerImplTest.class
+scot/carricksoftware/hansen/TestSuite.class
+scot/carricksoftware/hansen/SimpleFactoryTests.class
+scot/carricksoftware/hansen/factories/FactoriesTestSuite.class
+scot/carricksoftware/hansen/logger/HansenLoggerFactoryImplTest.class
+scot/carricksoftware/hansen/factories/HansenFactoryImplTest.class

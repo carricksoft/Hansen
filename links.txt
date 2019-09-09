@@ -1,0 +1,7 @@
+https://stackoverflow.com/questions/8948916/mocking-logger-and-loggerfactory-with-powermock-and-mockito
+
+http://www.megster.net/2014/unit-testing-log4j-method-calls-with-junit-and-mockito
+
+https://codingcraftsman.wordpress.com/2015/04/28/log4j2-mocking-with-mockito-and-junit/
+
+

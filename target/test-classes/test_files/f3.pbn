@@ -1,0 +1,60 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/pbn; charset=ISO-8859-1
+%Creator: Bridgewebs
+%
+[Event "Blank field tests"]
+[Site ""]
+[Date ""]
+[Board "1"]
+[West "Mr West"]
+[North "Ms North"]
+[East "Sir Andrew East"]
+[South "Mrs South"]
+[Dealer ""]
+[Vulnerable ""]
+[Deal "N:J63.J96.KT94.J75 Q.A43.AQJ52.AT32 KT92.KQT75.86.64 A8754.82.73.KQ98"]
+[DoubleDummyTricks "1111111111998ac998ac"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N  S  1
+N  H  1
+N  D  1
+N  C  1
+N NT  1
+E  S  9
+E  H  8
+E  D 10
+E  C 12
+E NT  9
+S  S  1
+S  H  1
+S  D  1
+S  C  1
+S NT  1
+W  S  9
+W  H  8
+W  D 10
+W  C 12
+W NT  9
+[ScoreTable "PairId_NS\4R;PairId_EW\4R;Contract\5L;Declarer\1R;Result\2R"]
+1    3    3C    W 10
+10   11   3NT   E 10
+11   10   3D    E 10
+12   9    3C    E 11
+13   8    5C    E 10
+14   7    3NT   E 10
+15   6    3NT   E 10
+16   5    3C    E 10
+17   4    2NT   E  9
+3    1    3NT   E  9
+4    17   3NT   E  9
+5    16   3NT   E  9
+6    15   3C    E 11
+7    14   3NT   E 10
+8    13   2NT   E 11
+9    12   3NT   E  8
+[Scoring "MP"]
+[Declarer "?"]
+[Contract "?"]
+[Result "?"]
+

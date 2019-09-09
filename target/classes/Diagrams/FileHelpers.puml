@@ -1,0 +1,45 @@
+@startuml
+
+
+package factories {
+interface ToolBoxSingleObjectFactory {
+}
+
+}
+
+
+package filehelpers {
+
+
+interface FileValidator {
+    boolean validForReading(String fileName);
+    String lastError();
+}
+
+class FileValidatorImpl {
+    +boolean validForReading(String fileName);
+    +String lastError();
+}
+
+
+interface FileValidatorFactory {
+}
+
+
+class FileValidatorFactoryImpl {
+}
+
+
+
+
+FileValidatorImpl ---|> FileValidator : implements
+FileValidatorFactoryImpl ---|> FileValidatorFactory : implements
+FileValidatorFactory ...|> FileValidator : builds
+FileValidatorFactory ...|> ToolBoxSingleObjectFactory : extends
+
+
+
+}
+
+@enduml
+

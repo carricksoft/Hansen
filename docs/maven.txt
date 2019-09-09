@@ -1,0 +1,1 @@
+mvn clean test verify spring-boot:run org.pitest:pitest-maven:mutationCoverage

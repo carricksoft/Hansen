@@ -1,0 +1,8 @@
+scot/carricksoftware/hansen/HansenApplication.class
+scot/carricksoftware/hansen/logger/HansenLoggerFactory.class
+scot/carricksoftware/hansen/logger/HansenLogger.class
+scot/carricksoftware/hansen/logger/HansenLoggerFactoryImpl.class
+scot/carricksoftware/hansen/factories/HansenFactoryImpl.class
+scot/carricksoftware/hansen/factories/HansenSingleObjectFactory.class
+scot/carricksoftware/hansen/factories/HansenFactory.class
+scot/carricksoftware/hansen/logger/HansenLoggerImpl.class

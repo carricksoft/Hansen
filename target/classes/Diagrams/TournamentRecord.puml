@@ -1,0 +1,34 @@
+@startuml
+
+
+package toolbox {
+interface ToolBoxSingleObjectFactory {
+}
+
+}
+package tournamentrecord {
+
+interface TournamentRecord {
+}
+
+
+class TournamentRecordImpl {
+}
+
+
+interface TournamentRecordFactory {
+}
+
+
+class TournamentRecordFactoryImpl {
+}
+
+ToolBoxSingleObjectFactory  <|-- TournamentRecordFactory
+TournamentRecord <|-- TournamentRecordImpl
+TournamentRecordFactory <|-- TournamentRecordFactoryImpl
+
+TournamentRecordFactory --+ TournamentRecord
+
+}
+
+@enduml

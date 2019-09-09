@@ -1,0 +1,40 @@
+@startuml
+
+
+package factories {
+interface ToolBoxSingleObjectFactory {
+}
+
+}
+
+package logger {
+
+interface ToolBoxLogger {
+info(String message)
+error(String error)
+functionCall (Object classCalled, String routine, String Parameter)
+}
+
+class ToolBoxLoggerImpl {
++info(String message)
++error(String message)
++functionCall (Object classCalled, String routine, String Parameter)
+}
+
+interface ToolBoxLoggerFactory {
+ToolBoxLogger getToolboxLogger();
+}
+
+class ToolBoxLoggerFactoryImpl {
++ToolBoxLogger getToolboxLogger();
+}
+
+ToolBoxSingleObjectFactory  <|... ToolBoxLoggerFactory: extends
+ToolBoxLogger <|-- ToolBoxLoggerImpl
+ToolBoxLoggerFactory <|-- ToolBoxLoggerFactoryImpl
+
+ToolBoxLoggerFactory --+ ToolBoxLogger
+
+}
+
+@enduml

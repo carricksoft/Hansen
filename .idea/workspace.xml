@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="Logger now used the class rather than it's name for functioncall">
+      <change afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/HansenFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/HansenFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/HansenLoggerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/HansenFactoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolBox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hansen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dealer_epics.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dealer_epics.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pending.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/spring.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/usage_notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_toolbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module_hansen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/ToolBoxApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/factories/ToolBoxFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/factories/ToolBoxFactoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/factories/ToolBoxSingleObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/HansenSingleObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/filehepers/FileValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/filehepers/FileValidatorFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/filehepers/FileValidatorFactoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/filehepers/FileValidatorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/logger/ToolBoxLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/HansenLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/logger/ToolBoxLoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/logger/ToolBoxLoggerFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/HansenLoggerFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/logger/ToolBoxLoggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/HansenLoggerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/readers/filereaders/readers/Reader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/readers/filereaders/readers/filereaders/FileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/readers/filereaders/readers/filereaders/PBNFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/readers/filereaders/readers/filereaders/PBNFileReaderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/tournamentrecord/TournamentRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/tournamentrecord/TournamentRecordFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/tournamentrecord/TournamentRecordFactoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/tournamentrecord/TournamentRecordImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/SimpleFactoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/SimpleFactoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/TestConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/ToolBoxApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/HansenApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/factories/FactoriesTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/FactoriesTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/factories/ToolBoxFactoryImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/filehepers/FileHelpersTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/filehepers/FileValidatorFactoryImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/filehepers/FileValidatorImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/logger/LoggerTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/LoggerTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/logger/ToolBoxLoggerFactoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/HansenLoggerFactoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/logger/ToolBoxLoggerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/HansenLoggerImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/readers/filereaders/readers/ReadersTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/readers/filereaders/readers/filereaders/FileReaderImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/readers/filereaders/readers/filereaders/FileReadersTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/readers/filereaders/readers/filereaders/PBNFileReaderImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/tournamentrecord/TournamentRecordFactoryImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/tournamentrecord/TournamentRecordImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/toolbox/tournamentrecord/TournamentRecordTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolbox.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hansen.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hansen.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ToolBox$ApplicationTestSuite.ic" NAME="ApplicationTestSuite Coverage Results" MODIFIED="1528396526211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>scot.carricksoftware.toolbox.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ToolBox$ToolBoxTestSuite.ic" NAME="ToolBoxTestSuite Coverage Results" MODIFIED="1535660829233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>scot.carricksoftware.toolbox.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ToolBox$.coverage" NAME=" Coverage Results" MODIFIED="1520419849989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ToolBox$ApplicationTestSuite.coverage" NAME="ApplicationTestSuite Coverage Results" MODIFIED="1523283114368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>scot.carricksoftware.toolbox.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ToolBox$PropertyStoreImplTest.coverage" NAME="PropertyStoreImplTest Coverage Results" MODIFIED="1520507711973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>scot.carricksoftware.toolbox.handrecords.properties.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ToolBox$PropertiesTestSuite.coverage" NAME="PropertiesTestSuite Coverage Results" MODIFIED="1520583638378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>scot.carricksoftware.toolbox.handrecords.properties.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ToolBox$SeatHoldingImplTest.coverage" NAME="SeatHoldingImplTest Coverage Results" MODIFIED="1522509452502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>scot.carricksoftware.toolbox.handrecords.validators.helpers.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ToolBox" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="UML Sequence" />
+        <option value="UML Use Case" />
+        <option value="UML Class" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="toSpell" pattern="file:*.log||file:*.xml||file:*.pbn||file:*.toc||file:*.idx||file:*.aux||file:*.ilg||file:*.ind||file:*.cmd||file:*.tex||file:*.puml||file:mvnw" />
+  </component>
+  <component name="ProjectId" id="1OeOn5HHOMzc585CWyK7SSoASIX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="toolbox" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558382690022" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/writers/factories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29425287" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="scot.carricksoftware.toolbox.filehepers" />
+      <recent name="scot.carricksoftware.toolbox.factories" />
+      <recent name="scot.carricksoftware.toolbox.tournamentrecord" />
+      <recent name="scot.carricksoftware.toolbox.logger" />
+      <recent name="scot.carricksoftware.toolbox.readers.filereaders.readers.filereaders" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="scot.carricksoftware.toolbox.filehepers" />
+      <recent name="scot.carricksoftware.toolbox.factories" />
+      <recent name="scot.carricksoftware.toolbox.tournamentrecord" />
+      <recent name="scot.carricksoftware.toolbox.logger" />
+      <recent name="scot.carricksoftware.toolbox.readers.filereaders.readers" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="scot.carricksoftware.toolbox.factories" />
+      <recent name="scot.carricksoftware.toolbox.readers.filereaders.readers" />
+      <recent name="scot.carricksoftware.toolbox" />
+      <recent name="scot.carricksoftware.toolbox.writers.factories" />
+      <recent name="scot.carricksoftware.toolbox.holdings" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Diagrams" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Diagrams/io" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Diagrams/interpreters" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Diagrams/factories" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="scot.carricksoftware.toolbox.readers" />
+      <recent name="scot.carricksoftware.toolbox.validators.factories" />
+      <recent name="scot.carricksoftware.toolbox.io.factories.pbn.converters" />
+      <recent name="scot.carricksoftware.toolbox.io.factories.pbn" />
+      <recent name="scot.carricksoftware.toolbox.integrationTests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/io" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Diagrams/holdings" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestSuite">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PBNFileReaderImplTest.whenICallRead_AFactoryBuiltTournamentRecordIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hansen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders" />
+      <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders.PBNFileReaderImplTest" />
+      <option name="METHOD_NAME" value="whenICallRead_AFactoryBuiltTournamentRecordIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PBNFileReaderImplTest.whenICallRead_ATournamentRecordIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hansen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders" />
+      <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders.PBNFileReaderImplTest" />
+      <option name="METHOD_NAME" value="whenICallRead_ATournamentRecordIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PBNFileReaderImplTest.whenICallRead_FileValidatorIsCalledToCheckTheFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hansen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders" />
+      <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders.PBNFileReaderImplTest" />
+      <option name="METHOD_NAME" value="whenICallRead_FileValidatorIsCalledToCheckTheFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PBNFileReaderImplTest.whenICallRead_TheTheDetailsAreLogged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hansen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders" />
+      <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.readers.filereaders.readers.filereaders.PBNFileReaderImplTest" />
+      <option name="METHOD_NAME" value="whenICallRead_TheTheDetailsAreLogged" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hansen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scot.carricksoftware.hansen.factories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen" />
+      <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.TestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolboxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Hansen" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="scot.carricksoftware.hansen.HansenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestSuite" />
+      <item itemvalue="JUnit.PBNFileReaderImplTest.whenICallRead_AFactoryBuiltTournamentRecordIsReturned" />
+      <item itemvalue="JUnit.PBNFileReaderImplTest.whenICallRead_ATournamentRecordIsReturned" />
+      <item itemvalue="JUnit.PBNFileReaderImplTest.whenICallRead_TheTheDetailsAreLogged" />
+      <item itemvalue="JUnit.PBNFileReaderImplTest.whenICallRead_FileValidatorIsCalledToCheckTheFile" />
+      <item itemvalue="Spring Boot.ToolboxApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestSuite" />
+        <item itemvalue="JUnit.PBNFileReaderImplTest.whenICallRead_FileValidatorIsCalledToCheckTheFile" />
+        <item itemvalue="JUnit.PBNFileReaderImplTest.whenICallRead_AFactoryBuiltTournamentRecordIsReturned" />
+        <item itemvalue="JUnit.PBNFileReaderImplTest.whenICallRead_ATournamentRecordIsReturned" />
+        <item itemvalue="JUnit.PBNFileReaderImplTest.whenICallRead_TheTheDetailsAreLogged" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showImplicitBeans" value="false" />
+    <option name="showDoc" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="" />
+      <created>1519731977088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519731977088</updated>
+      <workItem from="1519731980329" duration="117000" />
+      <workItem from="1519732238259" duration="5034000" />
+      <workItem from="1519738207733" duration="1415000" />
+      <workItem from="1519739782626" duration="146000" />
+      <workItem from="1519740019567" duration="76000" />
+      <workItem from="1519740146214" duration="320000" />
+      <workItem from="1519740573019" duration="32000" />
+      <workItem from="1519742283030" duration="26000" />
+      <workItem from="1519742577480" duration="51000" />
+      <workItem from="1519742694399" duration="22000" />
+      <workItem from="1519742992610" duration="278000" />
+      <workItem from="1519743450130" duration="268000" />
+      <workItem from="1519745748404" duration="7634000" />
+      <workItem from="1519777458447" duration="20000" />
+      <workItem from="1519777495567" duration="724000" />
+      <workItem from="1519778235828" duration="121000" />
+      <workItem from="1519778374941" duration="81000" />
+      <workItem from="1519778472638" duration="127000" />
+      <workItem from="1519778616754" duration="187000" />
+      <workItem from="1519778822563" duration="134000" />
+      <workItem from="1519778973153" duration="226000" />
+      <workItem from="1519779216587" duration="11292000" />
+      <workItem from="1519831379671" duration="883000" />
+      <workItem from="1519833502111" duration="2580000" />
+      <workItem from="1519916257828" duration="306000" />
+      <workItem from="1519916583147" duration="11608000" />
+      <workItem from="1519944303359" duration="1907000" />
+      <workItem from="1520001939875" duration="643000" />
+      <workItem from="1520002776948" duration="16163000" />
+      <workItem from="1520087023730" duration="9329000" />
+      <workItem from="1520248305427" duration="24320000" />
+      <workItem from="1520354540531" duration="9204000" />
+      <workItem from="1520414467522" duration="4273000" />
+      <workItem from="1520428161309" duration="2820000" />
+      <workItem from="1520431021208" duration="1012000" />
+      <workItem from="1520432848459" duration="22000" />
+      <workItem from="1520432882841" duration="10000" />
+      <workItem from="1520433088094" duration="4121000" />
+      <workItem from="1520437228232" duration="207000" />
+      <workItem from="1520437459659" duration="1002000" />
+      <workItem from="1520453842841" duration="5620000" />
+      <workItem from="1520506196519" duration="1667000" />
+      <workItem from="1520529987003" duration="13008000" />
+      <workItem from="1520583526604" duration="4055000" />
+      <workItem from="1520604770196" duration="7831000" />
+      <workItem from="1520678992765" duration="31539000" />
+      <workItem from="1520938422894" duration="63000" />
+      <workItem from="1520938504931" duration="28956000" />
+      <workItem from="1521118501197" duration="36000" />
+      <workItem from="1521118631252" duration="55000" />
+      <workItem from="1521118714470" duration="4000" />
+      <workItem from="1521118833077" duration="223000" />
+      <workItem from="1521119076857" duration="396000" />
+      <workItem from="1521121917679" duration="3921000" />
+      <workItem from="1521129720449" duration="4142000" />
+      <workItem from="1521133960198" duration="10946000" />
+      <workItem from="1521379684888" duration="36351000" />
+      <workItem from="1521761953964" duration="9206000" />
+      <workItem from="1522084505427" duration="37000" />
+      <workItem from="1522084560142" duration="2798000" />
+      <workItem from="1522193900432" duration="14419000" />
+      <workItem from="1522305404652" duration="6782000" />
+      <workItem from="1522314061370" duration="18165000" />
+      <workItem from="1522401569235" duration="48993000" />
+      <workItem from="1522652550241" duration="12941000" />
+      <workItem from="1522672029786" duration="17283000" />
+      <workItem from="1522761841805" duration="7500000" />
+      <workItem from="1522822007435" duration="11551000" />
+      <workItem from="1522851724763" duration="11031000" />
+      <workItem from="1523026109831" duration="2395000" />
+      <workItem from="1523050334434" duration="1432000" />
+      <workItem from="1523139485969" duration="3605000" />
+      <workItem from="1523191811358" duration="4142000" />
+      <workItem from="1523280934582" duration="87000" />
+      <workItem from="1523281038240" duration="5763000" />
+      <workItem from="1523455378731" duration="2503000" />
+      <workItem from="1523468147256" duration="2246000" />
+      <workItem from="1523558305443" duration="23000" />
+      <workItem from="1523558399998" duration="69000" />
+      <workItem from="1523559147930" duration="410000" />
+      <workItem from="1523560020240" duration="6904000" />
+      <workItem from="1523574466808" duration="3686000" />
+      <workItem from="1524051995629" duration="2131000" />
+      <workItem from="1524066313240" duration="713000" />
+      <workItem from="1524639048294" duration="19000" />
+      <workItem from="1524639149079" duration="16000" />
+      <workItem from="1524639190493" duration="9000" />
+      <workItem from="1524639225957" duration="4190000" />
+      <workItem from="1524650864814" duration="9338000" />
+      <workItem from="1524725996658" duration="5952000" />
+      <workItem from="1524745659241" duration="8218000" />
+      <workItem from="1524828178674" duration="6424000" />
+      <workItem from="1524840703204" duration="2501000" />
+      <workItem from="1525069024801" duration="8078000" />
+      <workItem from="1525153776765" duration="12708000" />
+      <workItem from="1525260622124" duration="13102000" />
+      <workItem from="1525508780798" duration="5059000" />
+      <workItem from="1525553795305" duration="14964000" />
+      <workItem from="1525728218109" duration="10567000" />
+      <workItem from="1525890501529" duration="19470000" />
+      <workItem from="1526019712994" duration="2810000" />
+      <workItem from="1526334334696" duration="35000" />
+      <workItem from="1526334442011" duration="39000" />
+      <workItem from="1526334513636" duration="34000" />
+      <workItem from="1526334572229" duration="2226000" />
+      <workItem from="1526411208604" duration="12799000" />
+      <workItem from="1526542505202" duration="32022000" />
+      <workItem from="1526725639457" duration="23974000" />
+      <workItem from="1526940316361" duration="18000" />
+      <workItem from="1526940436526" duration="23000" />
+      <workItem from="1526940499951" duration="5000" />
+      <workItem from="1526940531860" duration="15984000" />
+      <workItem from="1527150326560" duration="3984000" />
+      <workItem from="1527191148315" duration="1034000" />
+      <workItem from="1527248752893" duration="4159000" />
+      <workItem from="1527260489860" duration="7118000" />
+      <workItem from="1527348076886" duration="1776000" />
+      <workItem from="1527389508871" duration="3523000" />
+      <workItem from="1527420367563" duration="3681000" />
+      <workItem from="1527440582391" duration="1744000" />
+      <workItem from="1527443144338" duration="2407000" />
+      <workItem from="1527518872568" duration="2254000" />
+      <workItem from="1527545238078" duration="10445000" />
+      <workItem from="1527621542247" duration="90000" />
+      <workItem from="1527667242040" duration="675000" />
+      <workItem from="1527670443642" duration="6727000" />
+      <workItem from="1527770299886" duration="1383000" />
+      <workItem from="1527796987139" duration="15735000" />
+      <workItem from="1527816304491" duration="3245000" />
+      <workItem from="1527964733736" duration="13987000" />
+      <workItem from="1528024207691" duration="19562000" />
+      <workItem from="1528091592471" duration="800000" />
+      <workItem from="1528239627664" duration="10513000" />
+      <workItem from="1528283298637" duration="80617000" />
+      <workItem from="1528666826745" duration="723000" />
+      <workItem from="1528785971044" duration="18186000" />
+      <workItem from="1528926240949" duration="11000" />
+      <workItem from="1528926289633" duration="5000" />
+      <workItem from="1528926329942" duration="34929000" />
+      <workItem from="1529008694197" duration="5218000" />
+      <workItem from="1529044471362" duration="11891000" />
+      <workItem from="1529081898447" duration="59000" />
+      <workItem from="1529082202589" duration="19660000" />
+      <workItem from="1529690894662" duration="22188000" />
+      <workItem from="1529790801247" duration="36045000" />
+      <workItem from="1529992877597" duration="51963000" />
+      <workItem from="1530312686488" duration="19608000" />
+      <workItem from="1530569742480" duration="4238000" />
+      <workItem from="1530657989749" duration="963000" />
+      <workItem from="1530823289687" duration="200000" />
+      <workItem from="1530823763879" duration="648000" />
+      <workItem from="1530998626038" duration="324000" />
+      <workItem from="1531055199294" duration="4699000" />
+      <workItem from="1531129085520" duration="964000" />
+      <workItem from="1531536480380" duration="4871000" />
+      <workItem from="1532101855561" duration="10771000" />
+      <workItem from="1532247563056" duration="11714000" />
+      <workItem from="1532277468323" duration="8982000" />
+      <workItem from="1532331889166" duration="998000" />
+      <workItem from="1532333289374" duration="9784000" />
+      <workItem from="1532352069726" duration="25159000" />
+      <workItem from="1532553994684" duration="77000" />
+      <workItem from="1532554137951" duration="857000" />
+      <workItem from="1532555269183" duration="18056000" />
+      <workItem from="1532642814910" duration="601000" />
+      <workItem from="1532681851808" duration="10533000" />
+      <workItem from="1533054821625" duration="44000" />
+      <workItem from="1533054888195" duration="25940000" />
+      <workItem from="1533221265260" duration="7315000" />
+      <workItem from="1533245072541" duration="5172000" />
+      <workItem from="1533277989101" duration="9168000" />
+      <workItem from="1533308206391" duration="6497000" />
+      <workItem from="1533373575344" duration="14842000" />
+      <workItem from="1533544995067" duration="15427000" />
+      <workItem from="1533681081445" duration="2552000" />
+      <workItem from="1533719728766" duration="12000" />
+      <workItem from="1533719771598" duration="10000" />
+      <workItem from="1533719821783" duration="25182000" />
+      <workItem from="1533837186784" duration="1629000" />
+      <workItem from="1533934700178" duration="26515000" />
+      <workItem from="1534108887979" duration="1263000" />
+      <workItem from="1534154779669" duration="9286000" />
+      <workItem from="1534183611324" duration="73105000" />
+      <workItem from="1534582980416" duration="13269000" />
+      <workItem from="1534687774814" duration="19000" />
+      <workItem from="1534687820435" duration="12001000" />
+      <workItem from="1534965939673" duration="17000" />
+      <workItem from="1534966059390" duration="12000" />
+      <workItem from="1534966101348" duration="5000" />
+      <workItem from="1534966184130" duration="31000" />
+      <workItem from="1534966238767" duration="42000" />
+      <workItem from="1534967435794" duration="10184000" />
+      <workItem from="1535058324054" duration="25683000" />
+      <workItem from="1535279376191" duration="8484000" />
+      <workItem from="1535303089442" duration="1104000" />
+      <workItem from="1535304224508" duration="4297000" />
+      <workItem from="1535354815866" duration="21229000" />
+      <workItem from="1535401914796" duration="8145000" />
+      <workItem from="1535438010169" duration="923000" />
+      <workItem from="1535439536307" duration="10488000" />
+      <workItem from="1535528129909" duration="22742000" />
+      <workItem from="1536705584792" duration="1032000" />
+      <workItem from="1536738639265" duration="65000" />
+      <workItem from="1536738736496" duration="11000" />
+      <workItem from="1536738887755" duration="1267000" />
+      <workItem from="1536773862499" duration="11279000" />
+      <workItem from="1536873900019" duration="7292000" />
+      <workItem from="1536935082375" duration="5559000" />
+      <workItem from="1537028530458" duration="7862000" />
+      <workItem from="1537138392534" duration="1228000" />
+      <workItem from="1537204115827" duration="56000" />
+      <workItem from="1537204195701" duration="4525000" />
+      <workItem from="1537358783900" duration="20986000" />
+      <workItem from="1537532991969" duration="10834000" />
+      <workItem from="1537614931466" duration="6921000" />
+      <workItem from="1537712819229" duration="14829000" />
+      <workItem from="1537793297009" duration="5341000" />
+      <workItem from="1537984918169" duration="366000" />
+      <workItem from="1538073518554" duration="4183000" />
+      <workItem from="1538135653226" duration="770000" />
+      <workItem from="1538149065864" duration="25830000" />
+      <workItem from="1538300200802" duration="12563000" />
+      <workItem from="1538574380273" duration="314000" />
+      <workItem from="1539211530131" duration="1038000" />
+      <workItem from="1539213584984" duration="1045000" />
+      <workItem from="1539415087551" duration="1361000" />
+      <workItem from="1539419212106" duration="15406000" />
+      <workItem from="1539471660563" duration="8478000" />
+      <workItem from="1539594896463" duration="1250000" />
+      <workItem from="1539614410641" duration="728000" />
+      <workItem from="1539710923100" duration="7753000" />
+      <workItem from="1539882533783" duration="14848000" />
+      <workItem from="1540020948335" duration="8267000" />
+      <workItem from="1540044796733" duration="22984000" />
+      <workItem from="1540298217305" duration="31568000" />
+      <workItem from="1540465829633" duration="1863000" />
+      <workItem from="1540592617856" duration="6275000" />
+      <workItem from="1540641577549" duration="2475000" />
+      <workItem from="1540678800680" duration="629000" />
+      <workItem from="1540743607028" duration="6816000" />
+      <workItem from="1540808404282" duration="3913000" />
+      <workItem from="1540882823930" duration="10440000" />
+      <workItem from="1540898254626" duration="20386000" />
+      <workItem from="1541025731082" duration="2410000" />
+      <workItem from="1541098301285" duration="8955000" />
+      <workItem from="1541155350376" duration="18266000" />
+      <workItem from="1541263564097" duration="3571000" />
+      <workItem from="1541346813654" duration="8094000" />
+      <workItem from="1541368213696" duration="3068000" />
+      <workItem from="1541460561420" duration="13569000" />
+      <workItem from="1541583238824" duration="135000" />
+      <workItem from="1541631591445" duration="3810000" />
+      <workItem from="1541704803243" duration="6122000" />
+      <workItem from="1541719359567" duration="5024000" />
+      <workItem from="1541808589647" duration="2603000" />
+      <workItem from="1542054253200" duration="16115000" />
+      <workItem from="1542228770742" duration="11141000" />
+      <workItem from="1542326468571" duration="2014000" />
+      <workItem from="1542386501334" duration="614000" />
+      <workItem from="1542414160778" duration="825000" />
+      <workItem from="1542535239767" duration="13071000" />
+      <workItem from="1542615071771" duration="20946000" />
+      <workItem from="1542841184687" duration="6856000" />
+      <workItem from="1542926170851" duration="29833000" />
+      <workItem from="1543188324734" duration="12798000" />
+      <workItem from="1543278396794" duration="7865000" />
+      <workItem from="1543451969578" duration="3106000" />
+      <workItem from="1543676530184" duration="3170000" />
+      <workItem from="1543699325670" duration="8614000" />
+      <workItem from="1543883466999" duration="4486000" />
+      <workItem from="1544134387383" duration="4598000" />
+      <workItem from="1544368740683" duration="2530000" />
+      <workItem from="1544656445014" duration="387000" />
+      <workItem from="1544786340821" duration="1610000" />
+      <workItem from="1544948873914" duration="14015000" />
+      <workItem from="1545083508364" duration="45741000" />
+      <workItem from="1545130736755" duration="3801000" />
+      <workItem from="1545138050185" duration="3258000" />
+      <workItem from="1545240650349" duration="3506000" />
+      <workItem from="1545481198831" duration="2625000" />
+      <workItem from="1545908197345" duration="8493000" />
+      <workItem from="1546156730862" duration="10000" />
+      <workItem from="1546157688522" duration="2904000" />
+      <workItem from="1546963506824" duration="5648000" />
+      <workItem from="1547072293931" duration="5396000" />
+      <workItem from="1547162472949" duration="5830000" />
+      <workItem from="1547253366846" duration="2457000" />
+      <workItem from="1548709886946" duration="731000" />
+      <workItem from="1548711536753" duration="30000" />
+      <workItem from="1548711697413" duration="8879000" />
+      <workItem from="1548777141260" duration="4766000" />
+      <workItem from="1548796513256" duration="2251000" />
+      <workItem from="1548890189450" duration="5069000" />
+      <workItem from="1549018608870" duration="3847000" />
+      <workItem from="1549140403843" duration="7599000" />
+      <workItem from="1549318572640" duration="455000" />
+      <workItem from="1549319051775" duration="3452000" />
+      <workItem from="1549324014631" duration="2020000" />
+      <workItem from="1549410566768" duration="943000" />
+      <workItem from="1549536228367" duration="564000" />
+      <workItem from="1549573839443" duration="1328000" />
+      <workItem from="1549617324048" duration="5264000" />
+      <workItem from="1549668835335" duration="477000" />
+      <workItem from="1549888592768" duration="3842000" />
+      <workItem from="1549904809863" duration="2281000" />
+      <workItem from="1549952977479" duration="34000" />
+      <workItem from="1550011456603" duration="7858000" />
+      <workItem from="1550139627713" duration="920000" />
+      <workItem from="1550141939702" duration="2818000" />
+      <workItem from="1550191620269" duration="43000" />
+      <workItem from="1550449077588" duration="6799000" />
+      <workItem from="1550514279134" duration="742000" />
+      <workItem from="1550533762212" duration="6434000" />
+      <workItem from="1550624285672" duration="535000" />
+      <workItem from="1550703971287" duration="4567000" />
+      <workItem from="1550839991715" duration="4247000" />
+      <workItem from="1550962122463" duration="990000" />
+      <workItem from="1550963613684" duration="9108000" />
+      <workItem from="1551001173388" duration="7036000" />
+      <workItem from="1551133614768" duration="596000" />
+      <workItem from="1551185524469" duration="13286000" />
+      <workItem from="1551251574132" duration="6470000" />
+      <workItem from="1551307658576" duration="5657000" />
+      <workItem from="1551395992505" duration="642000" />
+      <workItem from="1551542858145" duration="21346000" />
+      <workItem from="1551729953719" duration="3785000" />
+      <workItem from="1552093019168" duration="3550000" />
+      <workItem from="1552138553934" duration="1193000" />
+      <workItem from="1552171880684" duration="5095000" />
+      <workItem from="1552245549830" duration="972000" />
+      <workItem from="1552246915928" duration="1169000" />
+      <workItem from="1552335852281" duration="17000" />
+      <workItem from="1552335898752" duration="5735000" />
+      <workItem from="1552420639790" duration="10000" />
+      <workItem from="1552510075163" duration="597000" />
+      <workItem from="1552691851569" duration="5949000" />
+      <workItem from="1552734416357" duration="88000" />
+      <workItem from="1552860781331" duration="7927000" />
+      <workItem from="1553257633338" duration="2741000" />
+      <workItem from="1553469791751" duration="4021000" />
+      <workItem from="1553720301966" duration="8875000" />
+      <workItem from="1553812628951" duration="3413000" />
+      <workItem from="1553852618942" duration="7540000" />
+      <workItem from="1554415181153" duration="6924000" />
+      <workItem from="1556924615544" duration="2347000" />
+      <workItem from="1556986710989" duration="6684000" />
+      <workItem from="1557071564164" duration="2676000" />
+      <workItem from="1557179761683" duration="2821000" />
+      <workItem from="1557844207033" duration="49000" />
+      <workItem from="1558373788118" duration="13000" />
+      <workItem from="1558373932081" duration="217000" />
+      <workItem from="1558374213322" duration="212000" />
+      <workItem from="1558374488340" duration="2939000" />
+      <workItem from="1562265809821" duration="5715000" />
+      <workItem from="1562339535021" duration="3268000" />
+      <workItem from="1562672454219" duration="4624000" />
+      <workItem from="1562767747739" duration="25000" />
+      <workItem from="1562767796076" duration="240000" />
+      <workItem from="1562768144083" duration="1549000" />
+      <workItem from="1563045038488" duration="1025000" />
+      <workItem from="1563046916106" duration="5429000" />
+      <workItem from="1563056795743" duration="921000" />
+      <workItem from="1563098396078" duration="3480000" />
+      <workItem from="1563104402411" duration="603000" />
+      <workItem from="1563134468706" duration="857000" />
+      <workItem from="1563177370716" duration="4471000" />
+      <workItem from="1563302066900" duration="6489000" />
+      <workItem from="1563309483008" duration="1768000" />
+      <workItem from="1563312236075" duration="5704000" />
+      <workItem from="1563346981505" duration="1483000" />
+      <workItem from="1563379411462" duration="2465000" />
+      <workItem from="1563543090944" duration="52000" />
+      <workItem from="1563543165595" duration="753000" />
+      <workItem from="1563732993868" duration="4243000" />
+      <workItem from="1563818047945" duration="16390000" />
+      <workItem from="1563952896291" duration="5764000" />
+      <workItem from="1563992007025" duration="2907000" />
+      <workItem from="1564183936854" duration="597000" />
+      <workItem from="1564334444057" duration="18000" />
+      <workItem from="1564334577707" duration="148000" />
+      <workItem from="1564334764843" duration="6000" />
+      <workItem from="1564334804697" duration="512000" />
+      <workItem from="1564335330714" duration="7677000" />
+      <workItem from="1564432398485" duration="4554000" />
+      <workItem from="1564526849198" duration="4626000" />
+      <workItem from="1564593827235" duration="2716000" />
+      <workItem from="1564951758291" duration="6222000" />
+      <workItem from="1565041421963" duration="4756000" />
+      <workItem from="1565556440683" duration="48000" />
+      <workItem from="1565556509075" duration="3529000" />
+      <workItem from="1565900634246" duration="3633000" />
+      <workItem from="1566649638244" duration="120000" />
+      <workItem from="1566652146086" duration="1622000" />
+      <workItem from="1567024006430" duration="164000" />
+      <workItem from="1567024227556" duration="33000" />
+      <workItem from="1567024288991" duration="10000" />
+      <workItem from="1567024327518" duration="139000" />
+      <workItem from="1567024484487" duration="5837000" />
+      <workItem from="1567263762574" duration="7103000" />
+      <workItem from="1567274876769" duration="34000" />
+      <workItem from="1567275635008" duration="76000" />
+      <workItem from="1567275759008" duration="722000" />
+      <workItem from="1567282703519" duration="97000" />
+      <workItem from="1567287218269" duration="1414000" />
+      <workItem from="1567359119748" duration="675000" />
+      <workItem from="1567460284171" duration="4906000" />
+      <workItem from="1567465956122" duration="1687000" />
+      <workItem from="1567543976452" duration="1586000" />
+      <workItem from="1567545601699" duration="817000" />
+      <workItem from="1567546917057" duration="1489000" />
+      <workItem from="1567610057243" duration="1449000" />
+      <workItem from="1567758276531" duration="2055000" />
+      <workItem from="1567780593303" duration="13000" />
+      <workItem from="1567845994267" duration="2266000" />
+      <workItem from="1567873747951" duration="2873000" />
+      <workItem from="1567876709231" duration="40000" />
+      <workItem from="1567876775693" duration="16000" />
+      <workItem from="1567876825658" duration="819000" />
+      <workItem from="1567894342364" duration="11000" />
+      <workItem from="1567946424192" duration="2374000" />
+      <workItem from="1567951110074" duration="2931000" />
+      <workItem from="1567963318268" duration="780000" />
+      <workItem from="1568021883810" duration="17000" />
+      <workItem from="1568027396652" duration="119000" />
+      <workItem from="1568027658977" duration="255000" />
+      <workItem from="1568027947862" duration="39000" />
+      <workItem from="1568028174963" duration="587000" />
+      <workItem from="1568029009491" duration="43000" />
+      <workItem from="1568035470102" duration="331000" />
+      <workItem from="1568036275128" duration="1070000" />
+    </task>
+    <task id="LOCAL-00827" summary="BoardSet.getBoard() - fix pit issue">
+      <created>1557002415850</created>
+      <option name="number" value="00827" />
+      <option name="presentableId" value="LOCAL-00827" />
+      <option name="project" value="LOCAL" />
+      <updated>1557002415850</updated>
+    </task>
+    <task id="LOCAL-00828" summary="PBNFileReader returns the correct hands for a board.">
+      <created>1557073630157</created>
+      <option name="number" value="00828" />
+      <option name="presentableId" value="LOCAL-00828" />
+      <option name="project" value="LOCAL" />
+      <updated>1557073630158</updated>
+    </task>
+    <task id="LOCAL-00829" summary="PBNFileWriter interface, structure and test suite">
+      <created>1557181111894</created>
+      <option name="number" value="00829" />
+      <option name="presentableId" value="LOCAL-00829" />
+      <option name="project" value="LOCAL" />
+      <updated>1557181111895</updated>
+    </task>
+    <task id="LOCAL-00830" summary="Returning to the project - changed PBNFileReader to trap lower errors">
+      <created>1562046835965</created>
+      <option name="number" value="00830" />
+      <option name="presentableId" value="LOCAL-00830" />
+      <option name="project" value="LOCAL" />
+      <updated>1562046835966</updated>
+    </task>
+    <task id="LOCAL-00831" summary="problem with exception catching">
+      <created>1562048035060</created>
+      <option name="number" value="00831" />
+      <option name="presentableId" value="LOCAL-00831" />
+      <option name="project" value="LOCAL" />
+      <updated>1562048035060</updated>
+    </task>
+    <task id="LOCAL-00832" summary="Starting to test PBNFileWriter">
+      <created>1562276912681</created>
+      <option name="number" value="00832" />
+      <option name="presentableId" value="LOCAL-00832" />
+      <option name="project" value="LOCAL" />
+      <updated>1562276912682</updated>
+    </task>
+    <task id="LOCAL-00833" summary="PBNLineWriterFactory">
+      <created>1562616277008</created>
+      <option name="number" value="00833" />
+      <option name="presentableId" value="LOCAL-00833" />
+      <option name="project" value="LOCAL" />
+      <updated>1562616277009</updated>
+    </task>
+    <task id="LOCAL-00834" summary="Start of Simplification">
+      <created>1563056967370</created>
+      <option name="number" value="00834" />
+      <option name="presentableId" value="LOCAL-00834" />
+      <option name="project" value="LOCAL" />
+      <updated>1563056967371</updated>
+    </task>
+    <task id="LOCAL-00835" summary="Start of Simplification (2)">
+      <created>1563302428586</created>
+      <option name="number" value="00835" />
+      <option name="presentableId" value="LOCAL-00835" />
+      <option name="project" value="LOCAL" />
+      <updated>1563302428586</updated>
+    </task>
+    <task id="LOCAL-00836" summary="Start of Simplification (2)">
+      <created>1563305274796</created>
+      <option name="number" value="00836" />
+      <option name="presentableId" value="LOCAL-00836" />
+      <option name="project" value="LOCAL" />
+      <updated>1563305274798</updated>
+    </task>
+    <task id="LOCAL-00837" summary="Start of Simplification (2) - spring version issues">
+      <created>1563308495888</created>
+      <option name="number" value="00837" />
+      <option name="presentableId" value="LOCAL-00837" />
+      <option name="project" value="LOCAL" />
+      <updated>1563308495888</updated>
+    </task>
+    <task id="LOCAL-00838" summary="Start of Simplification (2) - warnings issue">
+      <created>1563309545711</created>
+      <option name="number" value="00838" />
+      <option name="presentableId" value="LOCAL-00838" />
+      <option name="project" value="LOCAL" />
+      <updated>1563309545712</updated>
+    </task>
+    <task id="LOCAL-00839" summary="Start of Simplification (2) - warnings issues(2)">
+      <created>1563309801135</created>
+      <option name="number" value="00839" />
+      <option name="presentableId" value="LOCAL-00839" />
+      <option name="project" value="LOCAL" />
+      <updated>1563309801135</updated>
+    </task>
+    <task id="LOCAL-00840" summary="Start of Simplification (2) - warnings issues(3)">
+      <created>1563310181767</created>
+      <option name="number" value="00840" />
+      <option name="presentableId" value="LOCAL-00840" />
+      <option name="project" value="LOCAL" />
+      <updated>1563310181767</updated>
+    </task>
+    <task id="LOCAL-00841" summary="Start of Simplification (2) - warnings issues(4)">
+      <created>1563310521040</created>
+      <option name="number" value="00841" />
+      <option name="presentableId" value="LOCAL-00841" />
+      <option name="project" value="LOCAL" />
+      <updated>1563310521041</updated>
+    </task>
+    <task id="LOCAL-00842" summary="Start of Simplification (2) - warnings issues(5)">
+      <created>1563313928686</created>
+      <option name="number" value="00842" />
+      <option name="presentableId" value="LOCAL-00842" />
+      <option name="project" value="LOCAL" />
+      <updated>1563313928687</updated>
+    </task>
+    <task id="LOCAL-00843" summary="Start of Simplification (2) - warnings issues(6)">
+      <created>1563314887914</created>
+      <option name="number" value="00843" />
+      <option name="presentableId" value="LOCAL-00843" />
+      <option name="project" value="LOCAL" />
+      <updated>1563314887915</updated>
+    </task>
+    <task id="LOCAL-00844" summary="Start of Simplification (2) - warnings issues(7)">
+      <created>1563315763881</created>
+      <option name="number" value="00844" />
+      <option name="presentableId" value="LOCAL-00844" />
+      <option name="project" value="LOCAL" />
+      <updated>1563315763881</updated>
+    </task>
+    <task id="LOCAL-00845" summary="Break out logger into its own package">
+      <created>1563734106566</created>
+      <option name="number" value="00845" />
+      <option name="presentableId" value="LOCAL-00845" />
+      <option name="project" value="LOCAL" />
+      <updated>1563734106567</updated>
+    </task>
+    <task id="LOCAL-00846" summary="Logger Factory singleton package">
+      <created>1563820601148</created>
+      <option name="number" value="00846" />
+      <option name="presentableId" value="LOCAL-00846" />
+      <option name="project" value="LOCAL" />
+      <updated>1563820601150</updated>
+    </task>
+    <task id="LOCAL-00847" summary="Application logger removed and all related bits">
+      <created>1563824897053</created>
+      <option name="number" value="00847" />
+      <option name="presentableId" value="LOCAL-00847" />
+      <option name="project" value="LOCAL" />
+      <updated>1563824897053</updated>
+    </task>
+    <task id="LOCAL-00848" summary="Trying to use power mock runner">
+      <created>1563826174219</created>
+      <option name="number" value="00848" />
+      <option name="presentableId" value="LOCAL-00848" />
+      <option name="project" value="LOCAL" />
+      <updated>1563826174219</updated>
+    </task>
+    <task id="LOCAL-00849" summary="Remove all logging - it cannot be tested withour powermock and that kills the coverage metrics">
+      <created>1563828377203</created>
+      <option name="number" value="00849" />
+      <option name="presentableId" value="LOCAL-00849" />
+      <option name="project" value="LOCAL" />
+      <updated>1563828377203</updated>
+    </task>
+    <task id="LOCAL-00850" summary="Restore logging and factory classes">
+      <created>1563834756737</created>
+      <option name="number" value="00850" />
+      <option name="presentableId" value="LOCAL-00850" />
+      <option name="project" value="LOCAL" />
+      <updated>1563834756737</updated>
+    </task>
+    <task id="LOCAL-00851" summary="ToolBoxLoggerFactory">
+      <created>1563972830540</created>
+      <option name="number" value="00851" />
+      <option name="presentableId" value="LOCAL-00851" />
+      <option name="project" value="LOCAL" />
+      <updated>1563972830540</updated>
+    </task>
+    <task id="LOCAL-00852" summary="ToolBoxLoggerFactory - fix PIT discoveries">
+      <created>1563973824866</created>
+      <option name="number" value="00852" />
+      <option name="presentableId" value="LOCAL-00852" />
+      <option name="project" value="LOCAL" />
+      <updated>1563973824866</updated>
+    </task>
+    <task id="LOCAL-00853" summary="ToolBoxLoggerFactory - fix PIT discoveries(2)">
+      <created>1563992322700</created>
+      <option name="number" value="00853" />
+      <option name="presentableId" value="LOCAL-00853" />
+      <option name="project" value="LOCAL" />
+      <updated>1563992322701</updated>
+    </task>
+    <task id="LOCAL-00854" summary="First sue of argument captors">
+      <created>1564338167494</created>
+      <option name="number" value="00854" />
+      <option name="presentableId" value="LOCAL-00854" />
+      <option name="project" value="LOCAL" />
+      <updated>1564338167495</updated>
+    </task>
+    <task id="LOCAL-00855" summary="PBNFileRedaer using Logger Factory">
+      <created>1564760989301</created>
+      <option name="number" value="00855" />
+      <option name="presentableId" value="LOCAL-00855" />
+      <option name="project" value="LOCAL" />
+      <updated>1564760989301</updated>
+    </task>
+    <task id="LOCAL-00856" summary="PBNFileReader reads correct number of lines">
+      <created>1564954244218</created>
+      <option name="number" value="00856" />
+      <option name="presentableId" value="LOCAL-00856" />
+      <option name="project" value="LOCAL" />
+      <updated>1564954244218</updated>
+    </task>
+    <task id="LOCAL-00857" summary="PBNFileReader reads correct number of lines - tests corrected">
+      <created>1564959145226</created>
+      <option name="number" value="00857" />
+      <option name="presentableId" value="LOCAL-00857" />
+      <option name="project" value="LOCAL" />
+      <updated>1564959145226</updated>
+    </task>
+    <task id="LOCAL-00858" summary="PBNFileLineLoader structure">
+      <created>1565045765101</created>
+      <option name="number" value="00858" />
+      <option name="presentableId" value="LOCAL-00858" />
+      <option name="project" value="LOCAL" />
+      <updated>1565045765101</updated>
+    </task>
+    <task id="LOCAL-00859" summary="Revert to single helper factory">
+      <created>1565742907791</created>
+      <option name="number" value="00859" />
+      <option name="presentableId" value="LOCAL-00859" />
+      <option name="project" value="LOCAL" />
+      <updated>1565742907792</updated>
+    </task>
+    <task id="LOCAL-00860" summary="PBNFileLIneLoader plugged in">
+      <created>1565902695640</created>
+      <option name="number" value="00860" />
+      <option name="presentableId" value="LOCAL-00860" />
+      <option name="project" value="LOCAL" />
+      <updated>1565902695641</updated>
+    </task>
+    <task id="LOCAL-00861" summary="Removed numberOfLinesRead - not used">
+      <created>1565903855704</created>
+      <option name="number" value="00861" />
+      <option name="presentableId" value="LOCAL-00861" />
+      <option name="project" value="LOCAL" />
+      <updated>1565903855704</updated>
+    </task>
+    <task id="LOCAL-00862" summary="Using lineload to get tournament record">
+      <created>1566653580595</created>
+      <option name="number" value="00862" />
+      <option name="presentableId" value="LOCAL-00862" />
+      <option name="project" value="LOCAL" />
+      <updated>1566653580596</updated>
+    </task>
+    <task id="LOCAL-00863" summary="Next stage of factories">
+      <created>1567026628505</created>
+      <option name="number" value="00863" />
+      <option name="presentableId" value="LOCAL-00863" />
+      <option name="project" value="LOCAL" />
+      <updated>1567026628505</updated>
+    </task>
+    <task id="LOCAL-00864" summary="PBNFileLineLoaderFactory">
+      <created>1567264358081</created>
+      <option name="number" value="00864" />
+      <option name="presentableId" value="LOCAL-00864" />
+      <option name="project" value="LOCAL" />
+      <updated>1567264358081</updated>
+    </task>
+    <task id="LOCAL-00865" summary="FileValidatorFactory">
+      <created>1567272279418</created>
+      <option name="number" value="00865" />
+      <option name="presentableId" value="LOCAL-00865" />
+      <option name="project" value="LOCAL" />
+      <updated>1567272279418</updated>
+    </task>
+    <task id="LOCAL-00866" summary="Another new start">
+      <created>1567463115640</created>
+      <option name="number" value="00866" />
+      <option name="presentableId" value="LOCAL-00866" />
+      <option name="project" value="LOCAL" />
+      <updated>1567463115641</updated>
+    </task>
+    <task id="LOCAL-00867" summary="Logger package structure">
+      <created>1567464241520</created>
+      <option name="number" value="00867" />
+      <option name="presentableId" value="LOCAL-00867" />
+      <option name="project" value="LOCAL" />
+      <updated>1567464241521</updated>
+    </task>
+    <task id="LOCAL-00868" summary="SimpleFactory and SimpleFactoryTest">
+      <created>1567471329597</created>
+      <option name="number" value="00868" />
+      <option name="presentableId" value="LOCAL-00868" />
+      <option name="project" value="LOCAL" />
+      <updated>1567471329597</updated>
+    </task>
+    <task id="LOCAL-00869" summary="SimpleFactory and SimpleFactoryTest">
+      <created>1567617492736</created>
+      <option name="number" value="00869" />
+      <option name="presentableId" value="LOCAL-00869" />
+      <option name="project" value="LOCAL" />
+      <updated>1567617492736</updated>
+    </task>
+    <task id="LOCAL-00870" summary="PBNFileReader.read calling logger.functionCall">
+      <created>1567622566611</created>
+      <option name="number" value="00870" />
+      <option name="presentableId" value="LOCAL-00870" />
+      <option name="project" value="LOCAL" />
+      <updated>1567622566611</updated>
+    </task>
+    <task id="LOCAL-00871" summary="Change ToolBoxFactory to ToolBoxSingleObjectFactory">
+      <created>1567690797009</created>
+      <option name="number" value="00871" />
+      <option name="presentableId" value="LOCAL-00871" />
+      <option name="project" value="LOCAL" />
+      <updated>1567690797009</updated>
+    </task>
+    <task id="LOCAL-00872" summary="ToolBoxFactory can build lower level objects by calling their factory">
+      <created>1567759827042</created>
+      <option name="number" value="00872" />
+      <option name="presentableId" value="LOCAL-00872" />
+      <option name="project" value="LOCAL" />
+      <updated>1567759827043</updated>
+    </task>
+    <task id="LOCAL-00873" summary="PBNFileReader returns a factory built tournament record">
+      <created>1567847653543</created>
+      <option name="number" value="00873" />
+      <option name="presentableId" value="LOCAL-00873" />
+      <option name="project" value="LOCAL" />
+      <updated>1567847653543</updated>
+    </task>
+    <task id="LOCAL-00874" summary="FileValidatorFactory">
+      <created>1567948045446</created>
+      <option name="number" value="00874" />
+      <option name="presentableId" value="LOCAL-00874" />
+      <option name="project" value="LOCAL" />
+      <updated>1567948045447</updated>
+    </task>
+    <task id="LOCAL-00875" summary="Logger now used the class rather than it's name for functioncall">
+      <created>1567963494119</created>
+      <option name="number" value="00875" />
+      <option name="presentableId" value="LOCAL-00875" />
+      <option name="project" value="LOCAL" />
+      <updated>1567963494119</updated>
+    </task>
+    <option name="localTasksCounter" value="876" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove all logging - it cannot be tested withour powermock and that kills the coverage metrics" />
+    <MESSAGE value="Restore logging and factory classes" />
+    <MESSAGE value="ToolBoxLoggerFactory - fix PIT discoveries" />
+    <MESSAGE value="ToolBoxLoggerFactory - fix PIT discoveries(2)" />
+    <MESSAGE value="First sue of argument captors" />
+    <MESSAGE value="PBNFileRedaer using Logger Factory" />
+    <MESSAGE value="PBNFileReader reads correct number of lines" />
+    <MESSAGE value="PBNFileReader reads correct number of lines - tests corrected" />
+    <MESSAGE value="PBNFileLineLoader structure" />
+    <MESSAGE value="Revert to single helper factory" />
+    <MESSAGE value="PBNFileLIneLoader plugged in" />
+    <MESSAGE value="Removed numberOfLinesRead - not used" />
+    <MESSAGE value="Using lineload to get tournament record" />
+    <MESSAGE value="Next stage of factories" />
+    <MESSAGE value="PBNFileLineLoaderFactory" />
+    <MESSAGE value="Another new start" />
+    <MESSAGE value="Logger package structure" />
+    <MESSAGE value="ToolBoxLoggerFactory" />
+    <MESSAGE value="SimpleFactory and SimpleFactoryTest" />
+    <MESSAGE value="PBNFileReader.read calling logger.functionCall" />
+    <MESSAGE value="Change ToolBoxFactory to ToolBoxSingleObjectFactory" />
+    <MESSAGE value="ToolBoxFactory can build lower level objects by calling their factory" />
+    <MESSAGE value="PBNFileReader returns a factory built tournament record" />
+    <MESSAGE value="FileValidatorFactory" />
+    <MESSAGE value="Logger now used the class rather than it's name for functioncall" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logger now used the class rather than it's name for functioncall" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/handrecords/properties/PropertyStoreImplTest.java</url>
+          <line>181</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/handrecords/properties/PropertyStoreImplTest.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/handrecords/validators/helpers/ValidCardDetectorImplTest.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/handrecords/validators/SeatValidatorImpl.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/handrecords/validators/SeatValidatorImplTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/handrecords/validators/helpers/ValidContractSuitDetectorImplTest.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/handrecords/validators/helpers/ValidContractNumberDetectorImplTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/handrecords/properties/BoardPlayPropertiesImplTestIT.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/handrecords/properties/SeatPropertiesImplTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/handrecords/properties/SeatPropertiesImpl.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/handrecords/properties/BoardPlayPropertiesImplTestIT.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/holdings/boardset/load/LoadBoardSetPBNTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/holdings/holdings/boardset/load/LoadBoardSetPBN.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/holdings/boardset/load/LoadBoardSetPBNTest.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/holdings/boardset/load/interpreters/PBNInterpreterImplTest.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/holdings/boardset/load/interpreters/PBNInterpreterImplTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/holdings/boardset/load/interpreters/PBNInterpreterImplTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/holdings/holdings/boardset/load/interpreters/PBNInterpreterImpl.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/holdings/holdings/boardset/load/LoadBoardSetPBN.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/parsers/PBNParserFactoryImpl.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/integrationTest/java/scot/carricksoftware/toolbox/TheSystemCanLoadASetOfBoardsFromAFile.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/fileloaders/PBNAbstractFileLoaderImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/fileloaders/PBNAbstractFileLoaderImplTest.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/interpreters/PBNDealSplitterImpl.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/fileloaders/PBNFileLoaderImplTest.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/fileloaders/PBNFileLineLoaderImpl.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/fileloaders/PBNFileLoaderImpl.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/parsers/PBNFileParserImpl.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/validators/DealStringValidatorImpl.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/interpreters/PBNDealInterpreterImpl.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/parsers/PBNLineParserImplTest.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/loaders/PBNFileLoaderImpl.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/validators/SuitValidatorImplTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/loaders/PBNFileLoaderImpl.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/loaders/PBNFileLoaderImpl.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/loaders/PBNFileLoaderImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/loaders/PBNFileLoaderImpl.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/interpreters/PBNInterpreterImpl.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/interpreters/PBNInterpreterImpl.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/loaders/PBNFileLoaderImplTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/holdings/comparators/SeatHoldingComparatorImplTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/interpreters/BoardInterpreterImplTest.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/interpreters/BoardInterpreterImplTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/interpreters/BoardInterpreterImpl.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/interpreters/BoardInterpreterImpl.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/interpreters/BoardInterpreterImpl.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/interpreters/BoardInterpreterImpl.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/loaders/PBNFileLoaderImplTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/loaders/PBNFileLoaderImplTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/loaders/PBNFileLoaderImplTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/holdings/comparators/BoardSetComparatorImplTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/holdings/comparators/BoardSetComparatorImpl.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/holdings/comparators/factories/BoardSetHoldingComparatorFactoryImpl.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/holdings/comparators/factories/BoardSetHoldingComparatorFactoryImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/holdings/comparators/helpers/BoardSetHoldingComparatorImplTest.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/io/validators/FileNameValidatorImpl.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/io/factories/pbn/PBNInterpreterFactoryImplTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/holding/BoardSetImplTest.java</url>
+          <line>197</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/io/converters/PBNTokenStringConverterImpl.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/io/readers/PBNFileReaderIntegrationTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/io/converters/PBNDateStringConverterImplTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/io/converters/PBNDateStringConverterImplTest.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/io/readers/ReaderCommonTests.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/validators/factories/FileNameValidatorFactoryImplTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/readers/PBNFileReaderImpl.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/readers/PBNFileLineLoaderImpl.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/readers/PBNFileLineLoaderImpl.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/readers/PBNFileLineLoaderImpl.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/readers/PBNFileLineLoaderImpl.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/readers/PBNFileLineLoaderImpl.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/readers/helpers/PBNCardDealerImplTest.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/readers/helpers/PBNCardDealerImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/readers/helpers/PBNCardDealerImpl.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/readers/helpers/PBNCardDealerImpl.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/java/scot/carricksoftware/toolbox/PBNFileReaderITest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/writers/PBNFileWriterImplTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImplTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filereader/PBNFileReaderImpl.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filereader/PBNFileReaderImpl.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filereader/PBNFileReaderImpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filereader/PBNFileReaderImpl.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/SimpleFactoryTests.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/readers/filereaders/readers/filereaders/PBNFileReaderImplTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>

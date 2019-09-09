@@ -1,0 +1,8 @@
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/factories/HansenFactoryImpl.java
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/factories/HansenFactory.java
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/HansenLoggerImpl.java
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/HansenApplication.java
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/factories/HansenSingleObjectFactory.java
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/HansenLoggerFactory.java
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/HansenLoggerFactoryImpl.java
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/HansenLogger.java

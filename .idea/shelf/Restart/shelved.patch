@@ -1,0 +1,47 @@
+Index: src/test/java/scot/carricksoftware/toolbox/boardset/load/LoadBoardSetPBNTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package scot.carricksoftware.toolbox.boardset.load;\n\n\nimport org.junit.Test;\n\npublic class LoadBoardSetPBNTest {\n\n    @Test\n    public void nothing() {\n        LoadBoardSetPBN lbsPBN = new LoadBoardSetPBN();\n    }\n\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/scot/carricksoftware/toolbox/boardset/load/LoadBoardSetPBNTest.java	(revision 3e131b84ef85140046a9e27752b5207fbf8188f8)
++++ src/test/java/scot/carricksoftware/toolbox/boardset/load/LoadBoardSetPBNTest.java	(date 1524663910000)
+@@ -3,11 +3,19 @@
+ 
+ import org.junit.Test;
+ 
++import static junit.framework.TestCase.assertNull;
++
+ public class LoadBoardSetPBNTest {
+ 
+     @Test
+     public void nothing() {
++        LoadBoardSet lbsPBN = new LoadBoardSetPBN();
++    }
++
++    @Test
++    public void whenILoadFromANullFileThenANullObject() {
+         LoadBoardSetPBN lbsPBN = new LoadBoardSetPBN();
++        assertNull(lbsPBN.load());
+     }
+ 
+ }
+\ No newline at end of file
+Index: src/main/java/scot/carricksoftware/toolbox/boardset/load/LoadBoardSetPBN.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package scot.carricksoftware.toolbox.boardset.load;\n\npublic class LoadBoardSetPBN implements LoadBoardSet {\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/scot/carricksoftware/toolbox/boardset/load/LoadBoardSetPBN.java	(revision 3e131b84ef85140046a9e27752b5207fbf8188f8)
++++ src/main/java/scot/carricksoftware/toolbox/boardset/load/LoadBoardSetPBN.java	(date 1524663910000)
+@@ -1,4 +1,7 @@
+ package scot.carricksoftware.toolbox.boardset.load;
+ 
+ public class LoadBoardSetPBN implements LoadBoardSet {
++
++    public String load() {
++    }
+ }

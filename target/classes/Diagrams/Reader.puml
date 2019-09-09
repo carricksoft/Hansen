@@ -1,0 +1,30 @@
+@startuml
+
+package Readers {
+
+
+interface Reader{
+}
+
+package .FileReaders{
+
+interface FileReader {
+read(String fileName)
+String getfileName()
+}
+
+
+interface PBNFileReader {
+}
+
+
+Reader <|-- FileReader
+FileReader <|-- PBNFileReader
+FileReader <|-- PBNFileReaderImpl
+
+
+}
+
+}
+
+@enduml

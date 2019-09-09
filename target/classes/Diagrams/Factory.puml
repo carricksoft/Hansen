@@ -1,0 +1,24 @@
+@startuml
+
+package factories {
+
+interface ToolBoxFactory {
+ToolBoxLogger getToolBoxLogger()
+TournmentRecord getTournamentRecord()
+FileValidator getFileValidator()
+}
+
+class ToolBoxFactoryImpl {
++ToolBoxLogger getToolBoxLogger()
++TournmentRecord getTournamentRecord()
++FileValidator getFileValidator()
+}
+
+ToolBoxFactory <|-- ToolBoxFactoryImpl
+
+ToolBoxFactory --+ ToolBoxLoggerFactory
+ToolBoxFactory --+ TournamentRecordFactory
+
+}
+
+@enduml
