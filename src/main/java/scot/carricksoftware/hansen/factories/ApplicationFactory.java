@@ -1,6 +1,6 @@
 package scot.carricksoftware.hansen.factories;
 
-interface HansenFactory {
+interface ApplicationFactory {
 
 
 }

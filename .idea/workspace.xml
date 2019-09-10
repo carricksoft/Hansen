@@ -1,87 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="Logger now used the class rather than it's name for functioncall">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/1076b5c7c51fc86c83ff288d3fc856a9b323f703" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1ce861f9dfdf9242311d3b2cc3a8c31730e0fa9b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d6d9d332a2780be3bd99397eb9214d60c8192df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3cb43d70d99e891c2d205cbc3297b077acd5faa4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/5536b4bd246fa957996f6cfdee114f54224d3a6f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62bbb21b8a9adbe3034a4a8583afe4fbef8051d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66413dc336635ac5bb3c0be369ca9974d9dedb84" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/924bb4c3ea0ee93a777af7acccfbf92fafb52854" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c72c86e115d707670ed495c864e620142a37494" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad2f4f6bd86dc1ebef1edf4f54889d8dd753619b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b21ac259188fb67374e50b9ca0470d74c57655f7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b29a91ed6737ce2347ced8ad0c5da6857d1d120e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c57add77e48a0e861b3d37d09230ca36a75be03c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb4a7fd501fb36caafc84c5b535bea5d063e459f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/cec26cd8bebce560b50a54c9eea364107a97678f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4c415f49ac0d9c96f02c95df88826d8e4eef94a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc8cf08e8026d2f09c7f319efc69fee4b2cda06d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd67e6b6d5b920c1d860f750c7ba2b5c9a0f5fbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4fabfc140caeafd3ddbbb922aa07d125a1c0475" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec7938a551e4399a57e6b302358bf8ef33cc6f86" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed716f1e57b099ef84d9cfed827be096d616939c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f61fb3ee226083b952cfbb9b2a3b7ca994c77a73" beforeDir="false" />
+    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="Logger now ApplicationLogger to ease use in other applications">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/HansenFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/HansenFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/HansenFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/HansenFactoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/HansenSingleObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/SingleObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/HansenLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/HansenLoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/HansenLoggerFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/LoggerFactoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/HansenLoggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLoggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/SimpleFactoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/SimpleFactoryTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/HansenLoggerFactoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/HansenLoggerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/ApplicationLoggerImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/LoggerTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/LoggerTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/HansenFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/ApplicationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/HansenFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/ApplicationFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Diagrams/Factory.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Diagrams/Factory.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Diagrams/FileHelpers.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Diagrams/Logger.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Diagrams/Logger.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Diagrams/Reader.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Diagrams/TournamentRecord.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/FactoriesTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/FactoriesTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/HansenFactoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/ApplicationFactoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Diagrams/Factory.puml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Diagrams/Factory.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Diagrams/FileHelpers.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Diagrams/Logger.puml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Diagrams/Logger.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Diagrams/Reader.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Diagrams/TournamentRecord.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/HansenFactoryImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/HansenFactoryImpl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/HansenFactoryImpl.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/HansenFactoryImpl.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/HansenLoggerFactoryImpl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/HansenLoggerFactoryImpl.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/HansenLoggerImpl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/HansenLoggerImpl.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/HansenFactoryImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/HansenFactoryImpl.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/index.source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pit-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pit-reports/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/mutations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pit-reports/scot.carricksoftware.hansen.logger/HansenLoggerFactoryImpl.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pit-reports/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/scot.carricksoftware.hansen.logger/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/HansenFactoryImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/HansenFactoryImpl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/HansenFactoryImpl.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/HansenFactoryImpl.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/HansenLoggerFactoryImpl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/HansenLoggerFactoryImpl.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/HansenLoggerImpl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/HansenLoggerImpl.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/mutations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/HansenFactoryImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/HansenFactoryImpl.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/HansenApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/HansenApplication.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.source.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.HansenApplicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.HansenApplicationTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.factories.HansenFactoryImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.factories.HansenFactoryImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.logger.HansenLoggerFactoryImplTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.logger.HansenLoggerImplTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.factories.HansenFactoryImplTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.HansenApplicationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.HansenApplicationTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.factories.HansenFactoryImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.factories.HansenFactoryImplTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.logger.HansenLoggerFactoryImplTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.logger.HansenLoggerImplTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/toolBox-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/toolBox-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.factories.HansenFactoryImplTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/toolBox-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -848,14 +843,10 @@
       <workItem from="1568029009491" duration="43000" />
       <workItem from="1568035470102" duration="331000" />
       <workItem from="1568036275128" duration="1967000" />
-      <workItem from="1568055325581" duration="501000" />
-    </task>
-    <task id="LOCAL-00827" summary="BoardSet.getBoard() - fix pit issue">
-      <created>1557002415850</created>
-      <option name="number" value="00827" />
-      <option name="presentableId" value="LOCAL-00827" />
-      <option name="project" value="LOCAL" />
-      <updated>1557002415850</updated>
+      <workItem from="1568055325581" duration="1283000" />
+      <workItem from="1568127790236" duration="238000" />
+      <workItem from="1568128424056" duration="280000" />
+      <workItem from="1568132132118" duration="613000" />
     </task>
     <task id="LOCAL-00828" summary="PBNFileReader returns the correct hands for a board.">
       <created>1557073630157</created>
@@ -1193,7 +1184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567963494119</updated>
     </task>
-    <option name="localTasksCounter" value="876" />
+    <task id="LOCAL-00876" summary="Logger now ApplicationLogger to ease use in other applications">
+      <created>1568055892502</created>
+      <option name="number" value="00876" />
+      <option name="presentableId" value="LOCAL-00876" />
+      <option name="project" value="LOCAL" />
+      <updated>1568055892503</updated>
+    </task>
+    <option name="localTasksCounter" value="877" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1236,7 +1234,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove all logging - it cannot be tested withour powermock and that kills the coverage metrics" />
     <MESSAGE value="Restore logging and factory classes" />
     <MESSAGE value="ToolBoxLoggerFactory - fix PIT discoveries" />
     <MESSAGE value="ToolBoxLoggerFactory - fix PIT discoveries(2)" />
@@ -1261,7 +1258,8 @@
     <MESSAGE value="PBNFileReader returns a factory built tournament record" />
     <MESSAGE value="FileValidatorFactory" />
     <MESSAGE value="Logger now used the class rather than it's name for functioncall" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logger now used the class rather than it's name for functioncall" />
+    <MESSAGE value="Logger now ApplicationLogger to ease use in other applications" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logger now ApplicationLogger to ease use in other applications" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

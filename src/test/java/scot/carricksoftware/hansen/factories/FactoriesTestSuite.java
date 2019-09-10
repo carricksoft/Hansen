@@ -7,7 +7,7 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
 
-        HansenFactoryImplTest.class,
+        ApplicationFactoryImplTest.class,
 
 })
 

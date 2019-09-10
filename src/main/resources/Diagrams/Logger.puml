@@ -2,38 +2,38 @@
 
 
 package factories {
-interface ToolBoxSingleObjectFactory {
+interface SingleObjectFactory {
 }
 
 }
 
 package logger {
 
-interface ToolBoxLogger {
+interface ApplicationLogger {
 info(String message)
 error(String error)
 functionCall (Object classCalled, String routine, String Parameter)
 }
 
-class ToolBoxLoggerImpl {
+class ApplicationLoggerImpl {
 +info(String message)
 +error(String message)
 +functionCall (Object classCalled, String routine, String Parameter)
 }
 
-interface ToolBoxLoggerFactory {
-ToolBoxLogger getToolboxLogger();
+interface ApplicationLoggerFactory {
+ApplicationLogger getApplicationLogger();
 }
 
-class ToolBoxLoggerFactoryImpl {
-+ToolBoxLogger getToolboxLogger();
+class ApplicationLoggerFactoryImpl {
++ApplicationLogger getApplicationLogger();
 }
 
-ToolBoxSingleObjectFactory  <|... ToolBoxLoggerFactory: extends
-ToolBoxLogger <|-- ToolBoxLoggerImpl
-ToolBoxLoggerFactory <|-- ToolBoxLoggerFactoryImpl
+SingleObjectFactory  <|... ApplicationLoggerFactory: extends
+ApplicationLogger <|-- ApplicationLoggerImpl
+ApplicationLoggerFactory <|-- ApplicationLoggerFactoryImpl
 
-ToolBoxLoggerFactory --+ ToolBoxLogger
+ApplicationLoggerFactory --+ ApplicationLogger
 
 }
 

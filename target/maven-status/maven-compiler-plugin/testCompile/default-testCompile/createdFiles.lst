@@ -6,4 +6,4 @@ scot/carricksoftware/hansen/TestSuite.class
 scot/carricksoftware/hansen/logger/ApplicationLoggerImplTest.class
 scot/carricksoftware/hansen/SimpleFactoryTests.class
 scot/carricksoftware/hansen/factories/FactoriesTestSuite.class
-scot/carricksoftware/hansen/factories/HansenFactoryImplTest.class
+scot/carricksoftware/hansen/factories/ApplicationFactoryImplTest.class

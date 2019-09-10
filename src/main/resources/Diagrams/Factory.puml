@@ -2,22 +2,17 @@
 
 package factories {
 
-interface ToolBoxFactory {
-ToolBoxLogger getToolBoxLogger()
-TournmentRecord getTournamentRecord()
-FileValidator getFileValidator()
+interface ApplicationFactory {
+ApplicationLogger getApplicationLogger()
 }
 
-class ToolBoxFactoryImpl {
-+ToolBoxLogger getToolBoxLogger()
-+TournmentRecord getTournamentRecord()
-+FileValidator getFileValidator()
+class ApplicationFactoryImpl {
++ApplicationLogger getApplicationLogger()
 }
 
-ToolBoxFactory <|-- ToolBoxFactoryImpl
+ApplicationFactory <|-- ApplicationFactoryImpl
 
-ToolBoxFactory --+ ToolBoxLoggerFactory
-ToolBoxFactory --+ TournamentRecordFactory
+ApplicationFactory ...> ApplicationLoggerFactory: calls
 
 }
 
