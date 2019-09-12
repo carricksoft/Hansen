@@ -4,4 +4,6 @@ import scot.carricksoftware.hansen.HansenPass;
 
 interface PassTwo  extends HansenPass {
 
+    void compile(String fileName);
+
 }

@@ -1,0 +1,32 @@
+@startuml
+
+
+package filehelpers {
+
+interface FileValidator {
+boolean validForReading(String fileName);
+String getLastError()
+}
+
+
+class FileValidatorImpl {
++boolean validForReading(String fileName);
++String getLastError()
+}
+
+
+interface FileValidatorFactory {
+}
+
+class FileValidatorFactoryImpl {
+}
+
+
+FileValidator <|--- FileValidatorImpl : implements
+FileValidatorFactory <|--- FileValidatorFactoryImpl : implements
+
+FileValidatorFactory ...> FileValidator : builds
+
+}
+
+@enduml

@@ -1,4 +1,6 @@
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwoImpl.java
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorImpl.java
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorFactory.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwo.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/factories/ApplicationFactory.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/passone/PassOne.java
@@ -8,7 +10,9 @@
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLogger.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLoggerImpl.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/LoggerFactoryImpl.java
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidator.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/HansenApplication.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactory.java
+/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorFactoryImpl.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/passone/PassOneImpl.java

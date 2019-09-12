@@ -4,11 +4,10 @@ import org.springframework.stereotype.Component;
 import scot.carricksoftware.hansen.HansenPassImpl;
 
 @Component
-public class PassOneImpl  extends HansenPassImpl implements PassOne {
+public class PassOneImpl extends HansenPassImpl implements PassOne {
 
     @Override
-    public final void compile(final String inputFile) {
+    public final void compile(final String fileName) {
         throw new UnsupportedOperationException();
     }
-
 }

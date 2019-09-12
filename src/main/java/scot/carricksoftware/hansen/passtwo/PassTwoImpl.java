@@ -7,8 +7,9 @@ import scot.carricksoftware.hansen.HansenPassImpl;
 public class PassTwoImpl extends HansenPassImpl implements PassTwo {
 
     @Override
-    public final void compile(final String inputFile) {
+    public final void compile(final String fileName) {
         throw new UnsupportedOperationException();
     }
+
 
 }

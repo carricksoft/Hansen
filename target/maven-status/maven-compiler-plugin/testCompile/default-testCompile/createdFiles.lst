@@ -6,9 +6,11 @@ scot/carricksoftware/hansen/passone/PassOneImplTest.class
 scot/carricksoftware/hansen/TestSuite.class
 scot/carricksoftware/hansen/logger/ApplicationLoggerImplTest.class
 scot/carricksoftware/hansen/SimpleFactoryTests.class
+scot/carricksoftware/hansen/filehelpers/FileValidatorImplTest.class
+scot/carricksoftware/hansen/filehelpers/FileValidatorFactoryImplTest.class
 scot/carricksoftware/hansen/passtwo/PassTwoImplTest.class
 scot/carricksoftware/hansen/factories/FactoriesTestSuite.class
-scot/carricksoftware/hansen/HansenPassImplTest.class
 scot/carricksoftware/hansen/passtwo/PassTwoTestSuite.class
 scot/carricksoftware/hansen/passone/PassOneTestSuite.class
 scot/carricksoftware/hansen/factories/ApplicationFactoryImplTest.class
+scot/carricksoftware/hansen/filehelpers/FileHelpersTestSuite.class
