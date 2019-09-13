@@ -2,45 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="More architecture">
-      <change afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorFactoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Diagrams/FileHelpers.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/filehelpers/FileHelpersTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/filehelpers/FileValidatorFactoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/filehelpers/FileValidatorImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/029a9bac8e0d46f940c8635e53861a067a6bf039" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOneImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/HansenPassImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passtwo/PassTwoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passtwo/PassTwoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/ApplicationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/ApplicationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/ApplicationFactoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/ApplicationFactoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pit-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pit-reports/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/mutations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/scot.carricksoftware.hansen.logger/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.HansenApplicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.HansenApplicationTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.HansenApplicationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.HansenApplicationTest.txt" afterDir="false" />
@@ -167,13 +153,6 @@
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="scot.carricksoftware.hansen" />
-      <recent name="scot.carricksoftware.hansen.filehelpers" />
-      <recent name="scot.carricksoftware.hansen.passtwo" />
-      <recent name="scot.carricksoftware.hansen.passone" />
-      <recent name="scot.carricksoftware.toolbox.filehepers" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="scot.carricksoftware.hansen.filehelpers" />
       <recent name="scot.carricksoftware.hansen" />
@@ -191,6 +170,10 @@
       <recent name="scot.carricksoftware.toolbox.writers.factories" />
       <recent name="scot.carricksoftware.toolbox.holdings" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/io" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Diagrams/holdings" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo" />
       <recent name="$PROJECT_DIR$/src/main/resources/Diagrams" />
@@ -205,9 +188,12 @@
       <recent name="scot.carricksoftware.toolbox.io.factories.pbn.converters" />
       <recent name="scot.carricksoftware.toolbox.io.factories.pbn" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/io" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Diagrams/holdings" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="scot.carricksoftware.hansen.logger" />
+      <recent name="scot.carricksoftware.hansen" />
+      <recent name="scot.carricksoftware.hansen.filehelpers" />
+      <recent name="scot.carricksoftware.hansen.passtwo" />
+      <recent name="scot.carricksoftware.hansen.passone" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,6 +220,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApplicationLoggerFactoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hansen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scot.carricksoftware.hansen.logger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.logger" />
+      <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.logger.ApplicationLoggerFactoryImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationLoggerFactoryImplTest.whenICheckTheCommonFunctions_noProblemsAreFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hansen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scot.carricksoftware.hansen.logger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.logger" />
+      <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.logger.ApplicationLoggerFactoryImplTest" />
+      <option name="METHOD_NAME" value="whenICheckTheCommonFunctions_noProblemsAreFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileValidatorFactoryImplTest.whenICheckTheCommonFunctions_noProblemsAreFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hansen" />
       <extension name="coverage">
@@ -251,22 +270,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassOneImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hansen" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scot.carricksoftware.hansen.passone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.passone" />
-      <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.passone.PassOneImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PassTwoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hansen" />
       <extension name="coverage">
@@ -278,23 +281,6 @@
       <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.passtwo" />
       <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.passtwo.PassTwoImplTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PassTwoImplTest.whenICreatANewObject_theErrorCountIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hansen" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scot.carricksoftware.hansen.passtwo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.passtwo" />
-      <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.passtwo.PassTwoImplTest" />
-      <option name="METHOD_NAME" value="whenICreatANewObject_theErrorCountIsZero" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -341,19 +327,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestSuite" />
-      <item itemvalue="JUnit.PassTwoImplTest.whenICreatANewObject_theErrorCountIsZero" />
-      <item itemvalue="JUnit.PassOneImplTest" />
       <item itemvalue="JUnit.PassTwoImplTest" />
-      <item itemvalue="Spring Boot.ToolboxApplication" />
       <item itemvalue="JUnit.FileValidatorFactoryImplTest.whenICheckTheCommonFunctions_noProblemsAreFound" />
+      <item itemvalue="Spring Boot.ToolboxApplication" />
+      <item itemvalue="JUnit.ApplicationLoggerFactoryImplTest" />
+      <item itemvalue="JUnit.ApplicationLoggerFactoryImplTest.whenICheckTheCommonFunctions_noProblemsAreFound" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestSuite" />
+        <item itemvalue="JUnit.ApplicationLoggerFactoryImplTest.whenICheckTheCommonFunctions_noProblemsAreFound" />
+        <item itemvalue="JUnit.ApplicationLoggerFactoryImplTest" />
         <item itemvalue="JUnit.FileValidatorFactoryImplTest.whenICheckTheCommonFunctions_noProblemsAreFound" />
         <item itemvalue="JUnit.PassTwoImplTest" />
-        <item itemvalue="JUnit.PassOneImplTest" />
-        <item itemvalue="JUnit.PassTwoImplTest.whenICreatANewObject_theErrorCountIsZero" />
       </list>
     </recent_temporary>
   </component>
@@ -815,14 +801,8 @@
       <workItem from="1568127790236" duration="238000" />
       <workItem from="1568128424056" duration="280000" />
       <workItem from="1568132132118" duration="6949000" />
-      <workItem from="1568242710941" duration="3985000" />
-    </task>
-    <task id="LOCAL-00830" summary="Returning to the project - changed PBNFileReader to trap lower errors">
-      <created>1562046835965</created>
-      <option name="number" value="00830" />
-      <option name="presentableId" value="LOCAL-00830" />
-      <option name="project" value="LOCAL" />
-      <updated>1562046835966</updated>
+      <workItem from="1568242710941" duration="4808000" />
+      <workItem from="1568412449958" duration="1414000" />
     </task>
     <task id="LOCAL-00831" summary="problem with exception catching">
       <created>1562048035060</created>
@@ -1160,7 +1140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568140449763</updated>
     </task>
-    <option name="localTasksCounter" value="879" />
+    <task id="LOCAL-00879" summary="More architecture">
+      <created>1568246920539</created>
+      <option name="number" value="00879" />
+      <option name="presentableId" value="LOCAL-00879" />
+      <option name="project" value="LOCAL" />
+      <updated>1568246920540</updated>
+    </task>
+    <option name="localTasksCounter" value="880" />
     <servers />
   </component>
   <component name="TodoView">

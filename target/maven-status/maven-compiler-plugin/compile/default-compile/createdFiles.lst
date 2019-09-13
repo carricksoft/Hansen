@@ -4,6 +4,7 @@ scot/carricksoftware/hansen/logger/ApplicationLoggerFactory.class
 scot/carricksoftware/hansen/filehelpers/FileValidatorFactory.class
 scot/carricksoftware/hansen/logger/ApplicationLoggerImpl.class
 scot/carricksoftware/hansen/filehelpers/FileValidator.class
+scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImpl.class
 scot/carricksoftware/hansen/logger/ApplicationLogger.class
 scot/carricksoftware/hansen/passone/PassOne.class
 scot/carricksoftware/hansen/factories/ApplicationFactory.class
