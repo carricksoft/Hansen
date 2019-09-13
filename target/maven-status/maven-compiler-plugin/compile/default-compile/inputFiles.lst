@@ -9,7 +9,6 @@
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/factories/SingleObjectFactory.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLogger.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLoggerImpl.java
-/home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/LoggerFactoryImpl.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidator.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImpl.java
 /home/apg/git/Hansen/src/main/java/scot/carricksoftware/hansen/HansenApplication.java

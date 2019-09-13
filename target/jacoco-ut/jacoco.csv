@@ -7,5 +7,4 @@ Toolbox,scot.carricksoftware.hansen.passone,PassOneImpl,4,3,0,0,1,1,1,1,1,1
 Toolbox,scot.carricksoftware.hansen,HansenApplication,0,5,0,0,0,2,0,1,0,1
 Toolbox,scot.carricksoftware.hansen,HansenPassImpl,0,5,0,0,0,2,0,2,0,2
 Toolbox,scot.carricksoftware.hansen.logger,ApplicationLoggerImpl,8,3,0,0,2,1,2,1,2,1
-Toolbox,scot.carricksoftware.hansen.logger,LoggerFactoryImpl,14,0,0,0,5,0,5,0,5,0
 Toolbox,scot.carricksoftware.hansen.logger,ApplicationLoggerFactoryImpl,0,14,0,0,0,5,0,5,0,5

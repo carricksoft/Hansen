@@ -13,7 +13,6 @@ scot/carricksoftware/hansen/HansenPassImpl.class
 scot/carricksoftware/hansen/passtwo/PassTwo.class
 scot/carricksoftware/hansen/filehelpers/FileValidatorFactoryImpl.class
 scot/carricksoftware/hansen/factories/SingleObjectFactory.class
-scot/carricksoftware/hansen/logger/LoggerFactoryImpl.class
 scot/carricksoftware/hansen/passtwo/PassTwoImpl.class
 scot/carricksoftware/hansen/filehelpers/FileValidatorImpl.class
 scot/carricksoftware/hansen/passone/PassOneImpl.class

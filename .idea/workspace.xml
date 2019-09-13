@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="More architecture">
-      <change afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/ApplicationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/ApplicationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/ApplicationLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/ApplicationFactoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/ApplicationFactoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pit-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pit-reports/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/mutations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pit-reports/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/scot.carricksoftware.hansen.logger/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.HansenApplicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.HansenApplicationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.HansenApplicationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.HansenApplicationTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/toolBox-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/toolBox-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="ApplicationFactory calls ApplicationLoggerFactory">
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/logger/LoggerFactoryImpl.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -802,14 +773,7 @@
       <workItem from="1568128424056" duration="280000" />
       <workItem from="1568132132118" duration="6949000" />
       <workItem from="1568242710941" duration="4808000" />
-      <workItem from="1568412449958" duration="1414000" />
-    </task>
-    <task id="LOCAL-00831" summary="problem with exception catching">
-      <created>1562048035060</created>
-      <option name="number" value="00831" />
-      <option name="presentableId" value="LOCAL-00831" />
-      <option name="project" value="LOCAL" />
-      <updated>1562048035060</updated>
+      <workItem from="1568412449958" duration="1936000" />
     </task>
     <task id="LOCAL-00832" summary="Starting to test PBNFileWriter">
       <created>1562276912681</created>
@@ -1147,7 +1111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568246920540</updated>
     </task>
-    <option name="localTasksCounter" value="880" />
+    <task id="LOCAL-00880" summary="ApplicationFactory calls ApplicationLoggerFactory">
+      <created>1568414061287</created>
+      <option name="number" value="00880" />
+      <option name="presentableId" value="LOCAL-00880" />
+      <option name="project" value="LOCAL" />
+      <updated>1568414061287</updated>
+    </task>
+    <option name="localTasksCounter" value="881" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1190,7 +1161,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First sue of argument captors" />
     <MESSAGE value="PBNFileRedaer using Logger Factory" />
     <MESSAGE value="PBNFileReader reads correct number of lines" />
     <MESSAGE value="PBNFileReader reads correct number of lines - tests corrected" />
@@ -1215,7 +1185,8 @@
     <MESSAGE value="Copied ToolBox Logger to Hansen and the structure" />
     <MESSAGE value="Pass structure and errorcount" />
     <MESSAGE value="More architecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="More architecture" />
+    <MESSAGE value="ApplicationFactory calls ApplicationLoggerFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="ApplicationFactory calls ApplicationLoggerFactory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
