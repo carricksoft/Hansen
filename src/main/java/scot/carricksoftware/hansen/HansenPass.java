@@ -4,4 +4,6 @@ public interface HansenPass {
 
     int getErrorsCount();
 
+    void compile(String fileName);
+
 }

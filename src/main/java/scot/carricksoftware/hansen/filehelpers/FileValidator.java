@@ -1,6 +1,6 @@
 package scot.carricksoftware.hansen.filehelpers;
 
-interface FileValidator {
+public interface FileValidator {
     boolean validForReading(String fileName);
     String getLastError();
 }

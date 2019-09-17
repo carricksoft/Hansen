@@ -112,8 +112,6 @@ Gsrc/main/java/scot/carricksoftware/hansen/logger/ApplicationLogger.java,1/e/1e
 Nsrc/main/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactory.java,5/8/580bb82e5da21052c6d4f7e18afadc78c1d16835
 {
 Ksrc/main/java/scot/carricksoftware/hansen/logger/ApplicationLoggerImpl.java,b/6/b6446dc84e255955c10483974de43ee3a89f6d82
-w
-Gsrc/main/java/scot/carricksoftware/hansen/logger/LoggerFactoryImpl.java,1/5/156d0974a0249b716e15b862d1db165a4b96ecb2
 †
 Vsrc/test/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImplTest.java,3/4/347031392ad79f903e8273523b6444780a04b116
 
@@ -156,3 +154,11 @@ Osrc/test/java/scot/carricksoftware/hansen/filehelpers/FileHelpersTestSuite.java
 Wsrc/test/java/scot/carricksoftware/hansen/filehelpers/FileValidatorFactoryImplTest.java,e/d/ed897df38ef3a2656b208202248ecf58cf43d0ae
 €
 Psrc/test/java/scot/carricksoftware/hansen/filehelpers/FileValidatorImplTest.java,e/7/e7937842aa7c82c3099920e4da8c68f3b4d35ef7
+‚
+Rsrc/main/java/scot/carricksoftware/hansen/logger/ApplicationLoggerFactoryImpl.java,d/9/d9da7c504735425820c9bcccb46c531c764f970f
+
+Osrc/main/java/scot/carricksoftware/hansen/factories/ApplicationFactoryImpl.java,a/b/abaf7f200a1451d74bed5df7ce03fd21602edf29
+{
+Ksrc/main/java/scot/carricksoftware/hansen/factories/ApplicationFactory.java,5/d/5dbd17cc5a1a3b4a3ca76deb5ab303ea163c4e61
+t
+Dsrc/test/java/scot/carricksoftware/hansen/HansenPassBasicChecks.java,4/5/456647c1224d93f7f35c7bfaa25e6c15432b82b3

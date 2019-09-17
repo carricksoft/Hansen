@@ -6,6 +6,7 @@
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/HansenApplicationTest.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/passtwo/PassTwoImplTest.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/filehelpers/FileHelpersTestSuite.java
+/home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/HansenPassBasicChecks.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/filehelpers/FileValidatorFactoryImplTest.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/factories/FactoriesTestSuite.java
 /home/apg/git/Hansen/src/test/java/scot/carricksoftware/hansen/TestSuite.java

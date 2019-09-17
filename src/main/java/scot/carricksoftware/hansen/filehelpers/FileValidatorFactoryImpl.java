@@ -3,6 +3,7 @@ package scot.carricksoftware.hansen.filehelpers;
 import org.springframework.stereotype.Component;
 
 @Component
+public
 class FileValidatorFactoryImpl implements FileValidatorFactory {
 
     @Override

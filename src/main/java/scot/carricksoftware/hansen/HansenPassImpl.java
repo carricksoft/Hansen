@@ -7,4 +7,9 @@ public class HansenPassImpl implements HansenPass {
         return 0;
     }
 
+    @Override
+    public void compile(final String fileName) {
+        // will always be over-ridden
+    }
+
 }

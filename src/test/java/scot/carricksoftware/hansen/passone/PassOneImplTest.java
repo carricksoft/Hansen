@@ -1,14 +1,34 @@
 package scot.carricksoftware.hansen.passone;
 
-import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import scot.carricksoftware.hansen.HansenPassBasicChecks;
 
 @SpringBootTest
-public class PassOneImplTest {
+public class PassOneImplTest extends HansenPassBasicChecks {
+
+    private PassOne passOne;
+
+    @Before
+    public void setUp() {
+        super.setUp();
+        passOne = new PassOneImpl(factoryMock);
+    }
+
 
     @Test
     public void whenICreatANewObject_theErrorCountIsZero() {
-        Assert.assertEquals(0, new PassOneImpl().getErrorsCount());
+        checkNewObjectErrorCount(passOne);
     }
+
+
+    @Test
+    public void checkCompileLogsFileName() {
+        checkLoggingOfFilename(passOne);
+    }
+
+
+
+
 }

@@ -4,10 +4,12 @@ package factories {
 
 interface ApplicationFactory {
 ApplicationLogger getApplicationLogger()
+FileValidator getFileValidator()
 }
 
 class ApplicationFactoryImpl {
 +ApplicationLogger getApplicationLogger()
++FileValidator getFileValidator()
 }
 
 ApplicationFactory <|-- ApplicationFactoryImpl
