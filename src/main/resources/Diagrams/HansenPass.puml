@@ -1,0 +1,58 @@
+@startuml
+
+
+package hansen {
+
+interface HansenPass {
+int getErrorCount();
+void compile(String inputFile, String outputFile);
+}
+
+
+class HansenPassImpl {
+#int getErrorCount();
+#void compile(String inputFile, String outputFile);
+}
+
+
+}
+
+package passone {
+
+interface PassOne {
+}
+
+
+class PassOneImpl{
++void compile(String inputFile, String outputFile};
+}
+
+}
+
+
+package passtwo {
+
+interface PassTwo {
+}
+
+}
+
+class PassTwoImpl{
++void compile(String inputFile, String outputFile};
+}
+
+
+
+HansenPassImpl --|> HansenPass: implements
+
+PassOneImpl --|> PassOne: implements
+PassOneImpl --|> HansenPassImpl: extends
+PassOne...|> HansenPass: extends
+
+PassTwoImpl --|> PassTwo: implements
+PassTwoImpl --|> HansenPassImpl: extends
+PassTwo...|> HansenPass: extends
+
+
+
+@enduml

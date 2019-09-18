@@ -2,9 +2,9 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 Toolbox,scot.carricksoftware.hansen.factories,ApplicationFactoryImpl,0,15,0,0,0,3,0,3,0,3
 Toolbox,scot.carricksoftware.hansen.filehelpers,FileValidatorImpl,8,3,0,0,2,1,2,1,2,1
 Toolbox,scot.carricksoftware.hansen.filehelpers,FileValidatorFactoryImpl,0,11,0,0,0,4,0,4,0,4
-Toolbox,scot.carricksoftware.hansen.passtwo,PassTwoImpl,0,14,0,0,0,5,0,2,0,2
-Toolbox,scot.carricksoftware.hansen.passone,PassOneImpl,0,14,0,0,0,5,0,2,0,2
+Toolbox,scot.carricksoftware.hansen.passtwo,PassTwoImpl,0,8,0,0,0,4,0,2,0,2
+Toolbox,scot.carricksoftware.hansen.passone,PassOneImpl,0,8,0,0,0,4,0,2,0,2
 Toolbox,scot.carricksoftware.hansen,HansenApplication,0,5,0,0,0,2,0,1,0,1
-Toolbox,scot.carricksoftware.hansen,HansenPassImpl,1,5,0,0,1,2,1,2,1,2
+Toolbox,scot.carricksoftware.hansen,HansenPassImpl,0,16,0,0,0,6,0,3,0,3
 Toolbox,scot.carricksoftware.hansen.logger,ApplicationLoggerImpl,8,3,0,0,2,1,2,1,2,1
 Toolbox,scot.carricksoftware.hansen.logger,ApplicationLoggerFactoryImpl,0,14,0,0,0,5,0,5,0,5

@@ -2,39 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="ApplicationFactory calls ApplicationLoggerFactory - remote redundant code to up PIT %">
-      <change afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/HansenPassBasicChecks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/ApplicationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/ApplicationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/ApplicationFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/factories/ApplicationFactoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOneImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Diagrams/Factory.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Diagrams/Factory.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/ApplicationFactoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/factories/ApplicationFactoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passone/PassOneImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passone/PassOneImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passtwo/PassTwoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passtwo/PassTwoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Diagrams/Factory.puml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Diagrams/Factory.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Diagrams/PassOne.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Diagrams/HansenPass.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/index.source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pit-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pit-reports/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/mutations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.HansenApplicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.HansenApplicationTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.HansenApplicationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.HansenApplicationTest.txt" afterDir="false" />
@@ -816,6 +803,7 @@
       <workItem from="1568592658806" duration="2537000" />
       <workItem from="1568760467482" duration="20000" />
       <workItem from="1568760504828" duration="417000" />
+      <workItem from="1568766513122" duration="1050000" />
     </task>
     <task id="LOCAL-00833" summary="PBNLineWriterFactory">
       <created>1562616277008</created>
@@ -1203,7 +1191,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PBNFileReader reads correct number of lines" />
     <MESSAGE value="PBNFileReader reads correct number of lines - tests corrected" />
     <MESSAGE value="PBNFileLineLoader structure" />
     <MESSAGE value="Revert to single helper factory" />
@@ -1228,7 +1215,8 @@
     <MESSAGE value="More architecture" />
     <MESSAGE value="ApplicationFactory calls ApplicationLoggerFactory" />
     <MESSAGE value="ApplicationFactory calls ApplicationLoggerFactory - remote redundant code to up PIT %" />
-    <option name="LAST_COMMIT_MESSAGE" value="ApplicationFactory calls ApplicationLoggerFactory - remote redundant code to up PIT %" />
+    <MESSAGE value="hansenPass now abstract" />
+    <option name="LAST_COMMIT_MESSAGE" value="hansenPass now abstract" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
