@@ -2,6 +2,7 @@ package scot.carricksoftware.hansen.passone;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
 import scot.carricksoftware.hansen.HansenPassBasicChecks;
 
@@ -13,6 +14,7 @@ public class PassOneImplTest extends HansenPassBasicChecks {
     @Before
     public void setUp() {
         super.setUp();
+
         passOne = new PassOneImpl(factoryMock);
     }
 
@@ -24,8 +26,14 @@ public class PassOneImplTest extends HansenPassBasicChecks {
 
 
     @Test
-    public void checkCompileLogsFileName() {
-        checkLoggingOfFilename(passOne);
+    public void whenICallCompile_itIsLogged() {
+        checkLoggingOfCompile(passOne);
+    }
+
+    @Test
+    public void whenICallCompile_theInputFileNameIsValidatedForReading() {
+        passOne.compile(RANDOM_TEST_STRING);
+        Mockito.verify(fileValidatorMock, Mockito.times(1)).validForReading(RANDOM_TEST_STRING);
     }
 
 

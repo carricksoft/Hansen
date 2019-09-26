@@ -1,25 +1,30 @@
 package scot.carricksoftware.hansen;
 
 import scot.carricksoftware.hansen.factories.ApplicationFactory;
+import scot.carricksoftware.hansen.filehelpers.FileValidator;
 import scot.carricksoftware.hansen.logger.ApplicationLogger;
 
-public class HansenPassImpl implements HansenPass {
+public abstract class HansenPassImpl implements HansenPass {
 
     private final ApplicationLogger logger;
+    private final FileValidator fileValidator;
 
     protected HansenPassImpl(final ApplicationFactory applicationFactory) {
         logger = applicationFactory.getApplicationLogger();
+        fileValidator = applicationFactory.getFileValidator();
     }
 
-    @Override
     public final int getErrorsCount() {
         return 0;
     }
 
-    @SuppressWarnings("CheckStyle")
-    @Override
+
+    /**
+     * Must be subclassed
+     */
     public void compile(final String fileName) {
         logger.functionCall(this, "compile", fileName);
+        fileValidator.validForReading(fileName);
     }
 
 }

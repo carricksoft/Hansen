@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="ApplicationFactory calls ApplicationLoggerFactory - remote redundant code to up PIT %">
+    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="HansenPass extension">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOneImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Diagrams/PassOne.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Diagrams/HansenPass.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/HansenPassBasicChecks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/HansenPassBasicChecks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passone/PassOneImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passone/PassOneImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" afterDir="false" />
@@ -208,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSuite">
+  <component name="RunManager" selected="JUnit.PassOneImplTest.whenICallCompile_theInputFileNameIsValidatedForReading">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -232,23 +232,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationLoggerFactoryImplTest.whenICheckTheCommonFunctions_noProblemsAreFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hansen" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scot.carricksoftware.hansen.logger.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.logger" />
-      <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.logger.ApplicationLoggerFactoryImplTest" />
-      <option name="METHOD_NAME" value="whenICheckTheCommonFunctions_noProblemsAreFound" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PassOneImplTest.whenICallCompile_theInputFileNameIsLogged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hansen" />
       <extension name="coverage">
@@ -260,6 +243,23 @@
       <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.passone" />
       <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.passone.PassOneImplTest" />
       <option name="METHOD_NAME" value="whenICallCompile_theInputFileNameIsLogged" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassOneImplTest.whenICallCompile_theInputFileNameIsValidatedForReading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hansen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scot.carricksoftware.hansen.passone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.passone" />
+      <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.passone.PassOneImplTest" />
+      <option name="METHOD_NAME" value="whenICallCompile_theInputFileNameIsValidatedForReading" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -324,19 +324,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestSuite" />
-      <item itemvalue="JUnit.ApplicationLoggerFactoryImplTest.whenICheckTheCommonFunctions_noProblemsAreFound" />
       <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_theInputFileNameIsLogged" />
       <item itemvalue="JUnit.PassOneImplTest.whenICreatANewObject_theErrorCountIsZero" />
       <item itemvalue="JUnit.ApplicationFactoryImplTest.whenIAskForAFileValidator_theCorrectObjectTypeIsReturned" />
       <item itemvalue="Spring Boot.ToolboxApplication" />
+      <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_theInputFileNameIsValidatedForReading" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_theInputFileNameIsValidatedForReading" />
         <item itemvalue="JUnit.TestSuite" />
         <item itemvalue="JUnit.PassOneImplTest.whenICreatANewObject_theErrorCountIsZero" />
         <item itemvalue="JUnit.ApplicationFactoryImplTest.whenIAskForAFileValidator_theCorrectObjectTypeIsReturned" />
         <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_theInputFileNameIsLogged" />
-        <item itemvalue="JUnit.ApplicationLoggerFactoryImplTest.whenICheckTheCommonFunctions_noProblemsAreFound" />
       </list>
     </recent_temporary>
   </component>
@@ -803,14 +803,9 @@
       <workItem from="1568592658806" duration="2537000" />
       <workItem from="1568760467482" duration="20000" />
       <workItem from="1568760504828" duration="417000" />
-      <workItem from="1568766513122" duration="1050000" />
-    </task>
-    <task id="LOCAL-00833" summary="PBNLineWriterFactory">
-      <created>1562616277008</created>
-      <option name="number" value="00833" />
-      <option name="presentableId" value="LOCAL-00833" />
-      <option name="project" value="LOCAL" />
-      <updated>1562616277009</updated>
+      <workItem from="1568766513122" duration="1907000" />
+      <workItem from="1569189670969" duration="10000" />
+      <workItem from="1569535231225" duration="1474000" />
     </task>
     <task id="LOCAL-00834" summary="Start of Simplification">
       <created>1563056967370</created>
@@ -1148,7 +1143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568414498372</updated>
     </task>
-    <option name="localTasksCounter" value="882" />
+    <task id="LOCAL-00882" summary="HansenPass extension">
+      <created>1568767586782</created>
+      <option name="number" value="00882" />
+      <option name="presentableId" value="LOCAL-00882" />
+      <option name="project" value="LOCAL" />
+      <updated>1568767586783</updated>
+    </task>
+    <option name="localTasksCounter" value="883" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1191,7 +1193,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PBNFileReader reads correct number of lines - tests corrected" />
     <MESSAGE value="PBNFileLineLoader structure" />
     <MESSAGE value="Revert to single helper factory" />
     <MESSAGE value="PBNFileLIneLoader plugged in" />
@@ -1216,7 +1217,8 @@
     <MESSAGE value="ApplicationFactory calls ApplicationLoggerFactory" />
     <MESSAGE value="ApplicationFactory calls ApplicationLoggerFactory - remote redundant code to up PIT %" />
     <MESSAGE value="hansenPass now abstract" />
-    <option name="LAST_COMMIT_MESSAGE" value="hansenPass now abstract" />
+    <MESSAGE value="HansenPass extension" />
+    <option name="LAST_COMMIT_MESSAGE" value="HansenPass extension" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
