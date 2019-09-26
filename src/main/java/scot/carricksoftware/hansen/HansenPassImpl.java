@@ -18,11 +18,7 @@ public abstract class HansenPassImpl implements HansenPass {
         return 0;
     }
 
-    /**
-     * Designed to be subclassed (overridden)
-     * Without this javadoc checkstyle throws a fault
-     *
-     */
+   @SuppressWarnings("checkstyle:DesignForExtension")
     public void compile(final String fileName) {
         logger.functionCall(this, "compile", fileName);
         fileValidator.validForReading(fileName);
