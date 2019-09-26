@@ -1,88 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="Check Passone validates input file for reading">
+    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="Check Passone validates input file for reading (try 2)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/jacoco.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.factories/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen.logger/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/HansenApplication.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/HansenApplication.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco-ut/scot.carricksoftware.hansen/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pit-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pit-reports/mutations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pit-reports/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pit-reports/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.factories/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen.logger/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/HansenApplication.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/HansenApplication.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/scot.carricksoftware.hansen/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.HansenApplicationTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-scot.carricksoftware.hansen.TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.HansenApplicationTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/scot.carricksoftware.hansen.TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/toolBox-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/csw_checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/csw_checkstyle.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -863,13 +786,6 @@
       <workItem from="1569189670969" duration="10000" />
       <workItem from="1569535231225" duration="1474000" />
     </task>
-    <task id="LOCAL-00834" summary="Start of Simplification">
-      <created>1563056967370</created>
-      <option name="number" value="00834" />
-      <option name="presentableId" value="LOCAL-00834" />
-      <option name="project" value="LOCAL" />
-      <updated>1563056967371</updated>
-    </task>
     <task id="LOCAL-00835" summary="Start of Simplification (2)">
       <created>1563302428586</created>
       <option name="number" value="00835" />
@@ -1206,7 +1122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568767586783</updated>
     </task>
-    <option name="localTasksCounter" value="883" />
+    <task id="LOCAL-00883" summary="Check Passone validates input file for reading (try 2)">
+      <created>1569538626921</created>
+      <option name="number" value="00883" />
+      <option name="presentableId" value="LOCAL-00883" />
+      <option name="project" value="LOCAL" />
+      <updated>1569538626921</updated>
+    </task>
+    <option name="localTasksCounter" value="884" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1249,7 +1172,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PBNFileLineLoader structure" />
     <MESSAGE value="Revert to single helper factory" />
     <MESSAGE value="PBNFileLIneLoader plugged in" />
     <MESSAGE value="Removed numberOfLinesRead - not used" />
@@ -1274,7 +1196,8 @@
     <MESSAGE value="ApplicationFactory calls ApplicationLoggerFactory - remote redundant code to up PIT %" />
     <MESSAGE value="hansenPass now abstract" />
     <MESSAGE value="HansenPass extension" />
-    <option name="LAST_COMMIT_MESSAGE" value="HansenPass extension" />
+    <MESSAGE value="Check Passone validates input file for reading (try 2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check Passone validates input file for reading (try 2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
