@@ -19,9 +19,11 @@ public abstract class HansenPassImpl implements HansenPass {
     }
 
    @SuppressWarnings("checkstyle:DesignForExtension")
-    public void compile(final String fileName) {
-        logger.functionCall(this, "compile", fileName);
-        fileValidator.validForReading(fileName);
+    public void compile(final String inputFileName, final String outputFileName) {
+        logger.functionCall(this, "compile", inputFileName);
+        if (fileValidator.validForReading(inputFileName)) {
+            fileValidator.validForWriting(outputFileName);
+        }
     }
 
 

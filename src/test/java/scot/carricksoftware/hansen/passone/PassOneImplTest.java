@@ -32,8 +32,17 @@ public class PassOneImplTest extends HansenPassBasicChecks {
 
     @Test
     public void whenICallCompile_theInputFileNameIsValidatedForReading() {
-        passOne.compile(RANDOM_TEST_STRING);
+        passOne.compile(RANDOM_TEST_STRING, RANDOM_TEST_STRING2);
         Mockito.verify(fileValidatorMock, Mockito.times(1)).validForReading(RANDOM_TEST_STRING);
+    }
+
+
+    @Test
+    public void whenICallCompile_andValidateForReadingPassesThenTheSecondFileIsValidatedForWriting() {
+        Mockito.when(fileValidatorMock.validForReading(RANDOM_TEST_STRING)).thenReturn(true);
+
+        passOne.compile(RANDOM_TEST_STRING,RANDOM_TEST_STRING2 );
+        Mockito.verify(fileValidatorMock, Mockito.times(1)).validForWriting(RANDOM_TEST_STRING2);
     }
 
 

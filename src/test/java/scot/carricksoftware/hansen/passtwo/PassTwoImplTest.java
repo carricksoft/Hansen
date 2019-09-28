@@ -26,7 +26,7 @@ public class PassTwoImplTest extends HansenPassBasicChecks {
 
     @Test
     public void whenICallCompile_theInputFileNameIsLogged() {
-        passTwo.compile(RANDOM_TEST_STRING);
+        passTwo.compile(RANDOM_TEST_STRING, RANDOM_TEST_STRING2);
         Mockito.verify(loggerMock, Mockito.times(1)).functionCall(passTwo, "compile", RANDOM_TEST_STRING);
     }
 

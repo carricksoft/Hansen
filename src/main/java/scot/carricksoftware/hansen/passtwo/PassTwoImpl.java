@@ -12,8 +12,8 @@ public class PassTwoImpl extends HansenPassImpl implements PassTwo {
     }
 
     @Override
-    public final void compile(final String fileName) {
-        super.compile(fileName);
+    public final void compile(final String inputFileName, final String outputFileName) {
+        super.compile(inputFileName, outputFileName);
     }
 
 }

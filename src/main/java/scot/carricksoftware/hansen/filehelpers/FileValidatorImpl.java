@@ -14,4 +14,9 @@ public class FileValidatorImpl implements FileValidator {
     public final String getLastError() {
         throw new UnsupportedOperationException();
     }
+
+    @Override
+    public final boolean validForWriting(final String fileName) {
+        throw new UnsupportedOperationException();
+    }
 }

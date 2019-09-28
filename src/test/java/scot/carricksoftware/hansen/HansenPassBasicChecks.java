@@ -26,7 +26,7 @@ public class HansenPassBasicChecks extends TestConstants {
     }
 
     protected void checkLoggingOfCompile(final HansenPass hansenPass) {
-        hansenPass.compile(RANDOM_TEST_STRING);
+        hansenPass.compile(RANDOM_TEST_STRING, RANDOM_TEST_STRING2);
         Mockito.verify(loggerMock, Mockito.times(1)).functionCall(hansenPass, "compile", RANDOM_TEST_STRING);
     }
 }
