@@ -45,7 +45,44 @@ public class PassOneImplTest extends HansenPassBasicChecks {
         Mockito.verify(fileValidatorMock, Mockito.times(1)).validForWriting(RANDOM_TEST_STRING2);
     }
 
+    @Test
+    public void whenICallCompile_andValidateForReadingFailsThenTheSecondFileIsNotValidatedForWriting() {
+        Mockito.when(fileValidatorMock.validForReading(RANDOM_TEST_STRING)).thenReturn(false);
+
+        passOne.compile(RANDOM_TEST_STRING,RANDOM_TEST_STRING2 );
+        Mockito.verify(fileValidatorMock, Mockito.times(0)).validForWriting(RANDOM_TEST_STRING2);
+    }
 
 
+    @Test
+    public void whenICallCompile_andTheFirstFileIsEmptyItIsNotTestedForValidReading() {
+        passOne.compile(EMPTY_STRING,RANDOM_TEST_STRING2 );
 
+        Mockito.verify(fileValidatorMock, Mockito.times(0)).validForReading(Mockito.anyString());
+    }
+
+    @Test
+    public void whenICallCompile_andTheFirstFileIsAPaddedEmptyStringItIsNotTestedForValidReading() {
+        passOne.compile(PADDED_EMPTY_STRING,RANDOM_TEST_STRING2 );
+
+        Mockito.verify(fileValidatorMock, Mockito.times(0)).validForReading(Mockito.anyString());
+    }
+
+
+    @Test
+    public void whenICallCompile_andTheFirstFileIsNullIsNotTestedForValidReading() {
+        passOne.compile(null,RANDOM_TEST_STRING2 );
+
+        Mockito.verify(fileValidatorMock, Mockito.times(0)).validForReading(Mockito.anyString());
+    }
+
+
+    @Test
+    public void whenICallCompileOnAPaddedValidInputFileName_theInputFileNameIsValidatedForReading() {
+        passOne.compile("   " + RANDOM_TEST_STRING + "   ", RANDOM_TEST_STRING2);
+
+        Mockito.verify(fileValidatorMock, Mockito.times(1)).validForReading(RANDOM_TEST_STRING);
+    }
+
+    
 }

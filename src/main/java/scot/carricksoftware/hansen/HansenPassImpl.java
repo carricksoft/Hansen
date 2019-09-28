@@ -6,6 +6,7 @@ import scot.carricksoftware.hansen.logger.ApplicationLogger;
 
 public abstract class HansenPassImpl implements HansenPass {
 
+    private static final String EMPTY_STRING = "";
     private final ApplicationLogger logger;
     private final FileValidator fileValidator;
 
@@ -21,6 +22,15 @@ public abstract class HansenPassImpl implements HansenPass {
    @SuppressWarnings("checkstyle:DesignForExtension")
     public void compile(final String inputFileName, final String outputFileName) {
         logger.functionCall(this, "compile", inputFileName);
+        if (inputFileName != null)
+            compileTrimmedFiles(inputFileName.trim(), outputFileName);
+    }
+
+    private void compileTrimmedFiles(final String inputFileName, final String outputFileName) {
+        if (inputFileName.length() > 0) compileNonEmptyInputFile(inputFileName, outputFileName);
+    }
+
+    private void compileNonEmptyInputFile(final String inputFileName, final String outputFileName) {
         if (fileValidator.validForReading(inputFileName)) {
             fileValidator.validForWriting(outputFileName);
         }

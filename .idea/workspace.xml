@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="Fixing checkstyle annoyance on method being over-ridden- #2 (using a supression at the method)">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterDir="false" />
+    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="HansenPass if input five is valid then checks output file can be read">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/filehelpers/FileValidatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passone/PassOneImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo/PassTwoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/HansenPassBasicChecks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/HansenPassBasicChecks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passone/PassOneImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passone/PassOneImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passtwo/PassTwoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passtwo/PassTwoImplTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,14 +187,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PassOneImplTest.whenICallCompile_andValidateForReadingPassesThenTheSecondFileisValidtedForWriting">
+  <component name="RunManager" selected="JUnit.TestSuite">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassOneImplTest.whenICallCompile_andValidateForReadingPassesThenTheSecondFileisValiadtedForWriting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PassOneImplTest.whenICallCompileOnAPaddedvalidString_theInputFileNameIsValidatedForReading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hansen" />
       <extension name="coverage">
         <pattern>
@@ -214,14 +204,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.passone" />
       <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.passone.PassOneImplTest" />
-      <option name="METHOD_NAME" value="whenICallCompile_andValidateForReadingPassesThenTheSecondFileisValiadtedForWriting" />
+      <option name="METHOD_NAME" value="whenICallCompileOnAPaddedvalidString_theInputFileNameIsValidatedForReading" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassOneImplTest.whenICallCompile_andValidateForReadingPassesThenTheSecondFileisValidtedForWriting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PassOneImplTest.whenICallCompile_andValidateForReadingFailesThenTheSecondFileIsNotValidatedForWriting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hansen" />
       <extension name="coverage">
         <pattern>
@@ -231,14 +221,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.passone" />
       <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.passone.PassOneImplTest" />
-      <option name="METHOD_NAME" value="whenICallCompile_andValidateForReadingPassesThenTheSecondFileisValidtedForWriting" />
+      <option name="METHOD_NAME" value="whenICallCompile_andValidateForReadingFailesThenTheSecondFileIsNotValidatedForWriting" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassOneImplTest.whenICallCompile_theInputFileNameIsValidatedForReading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PassOneImplTest.whenICallCompile_anddTheFirstFileIsAPaddedEmptyStringItIsNotTestedForValidReading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hansen" />
       <extension name="coverage">
         <pattern>
@@ -248,14 +238,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.passone" />
       <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.passone.PassOneImplTest" />
-      <option name="METHOD_NAME" value="whenICallCompile_theInputFileNameIsValidatedForReading" />
+      <option name="METHOD_NAME" value="whenICallCompile_anddTheFirstFileIsAPaddedEmptyStringItIsNotTestedForValidReading" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassOneImplTest.whenICreatANewObject_theErrorCountIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PassOneImplTest.whenICallCompile_anddTheFirstFileIsNullItIsNotTestedForValidReading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hansen" />
       <extension name="coverage">
         <pattern>
@@ -265,7 +255,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="scot.carricksoftware.hansen.passone" />
       <option name="MAIN_CLASS_NAME" value="scot.carricksoftware.hansen.passone.PassOneImplTest" />
-      <option name="METHOD_NAME" value="whenICreatANewObject_theErrorCountIsZero" />
+      <option name="METHOD_NAME" value="whenICallCompile_anddTheFirstFileIsNullItIsNotTestedForValidReading" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -276,7 +266,7 @@
       <module name="Hansen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scot.carricksoftware.hansen.factories.*" />
+          <option name="PATTERN" value="scot.carricksoftware.hansen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,20 +302,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestSuite" />
-      <item itemvalue="JUnit.PassOneImplTest.whenICreatANewObject_theErrorCountIsZero" />
-      <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_theInputFileNameIsValidatedForReading" />
+      <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_andValidateForReadingFailesThenTheSecondFileIsNotValidatedForWriting" />
       <item itemvalue="Spring Boot.ToolboxApplication" />
-      <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_andValidateForReadingPassesThenTheSecondFileisValiadtedForWriting" />
-      <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_andValidateForReadingPassesThenTheSecondFileisValidtedForWriting" />
+      <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_anddTheFirstFileIsNullItIsNotTestedForValidReading" />
+      <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_anddTheFirstFileIsAPaddedEmptyStringItIsNotTestedForValidReading" />
+      <item itemvalue="JUnit.PassOneImplTest.whenICallCompileOnAPaddedvalidString_theInputFileNameIsValidatedForReading" />
+      <item itemvalue="JUnit.TestSuite" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_andValidateForReadingPassesThenTheSecondFileisValidtedForWriting" />
-        <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_andValidateForReadingPassesThenTheSecondFileisValiadtedForWriting" />
         <item itemvalue="JUnit.TestSuite" />
-        <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_theInputFileNameIsValidatedForReading" />
-        <item itemvalue="JUnit.PassOneImplTest.whenICreatANewObject_theErrorCountIsZero" />
+        <item itemvalue="JUnit.PassOneImplTest.whenICallCompileOnAPaddedvalidString_theInputFileNameIsValidatedForReading" />
+        <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_anddTheFirstFileIsAPaddedEmptyStringItIsNotTestedForValidReading" />
+        <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_anddTheFirstFileIsNullItIsNotTestedForValidReading" />
+        <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_andValidateForReadingFailesThenTheSecondFileIsNotValidatedForWriting" />
       </list>
     </recent_temporary>
   </component>
@@ -796,14 +786,8 @@
       <workItem from="1569189670969" duration="10000" />
       <workItem from="1569535231225" duration="1474000" />
       <workItem from="1569687713986" duration="18000" />
-      <workItem from="1569687927293" duration="2626000" />
-    </task>
-    <task id="LOCAL-00837" summary="Start of Simplification (2) - spring version issues">
-      <created>1563308495888</created>
-      <option name="number" value="00837" />
-      <option name="presentableId" value="LOCAL-00837" />
-      <option name="project" value="LOCAL" />
-      <updated>1563308495888</updated>
+      <workItem from="1569687927293" duration="3613000" />
+      <workItem from="1569695810232" duration="1536000" />
     </task>
     <task id="LOCAL-00838" summary="Start of Simplification (2) - warnings issue">
       <created>1563309545711</created>
@@ -1141,7 +1125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569540868692</updated>
     </task>
-    <option name="localTasksCounter" value="886" />
+    <task id="LOCAL-00886" summary="HansenPass if input five is valid then checks output file can be read">
+      <created>1569694237066</created>
+      <option name="number" value="00886" />
+      <option name="presentableId" value="LOCAL-00886" />
+      <option name="project" value="LOCAL" />
+      <updated>1569694237066</updated>
+    </task>
+    <option name="localTasksCounter" value="887" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1184,7 +1175,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed numberOfLinesRead - not used" />
     <MESSAGE value="Using lineload to get tournament record" />
     <MESSAGE value="Next stage of factories" />
     <MESSAGE value="PBNFileLineLoaderFactory" />
@@ -1209,7 +1199,8 @@
     <MESSAGE value="Check Passone validates input file for reading (try 2)" />
     <MESSAGE value="Fixing checkstyle annoyance on method being over-ridden" />
     <MESSAGE value="Fixing checkstyle annoyance on method being over-ridden- #2 (using a supression at the method)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing checkstyle annoyance on method being over-ridden- #2 (using a supression at the method)" />
+    <MESSAGE value="HansenPass if input five is valid then checks output file can be read" />
+    <option name="LAST_COMMIT_MESSAGE" value="HansenPass if input five is valid then checks output file can be read" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1626,18 +1617,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="421" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="422" />
+          <line>29</line>
+          <option name="timeStamp" value="424" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="423" />
+          <line>33</line>
+          <option name="timeStamp" value="425" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
