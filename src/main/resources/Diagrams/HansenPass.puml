@@ -6,12 +6,14 @@ package hansen {
 interface HansenPass {
 int getErrorCount();
 void compile(String inputFile, String outputFile);
+int getItemsRead();
 }
 
 
 class HansenPassImpl {
 #int getErrorCount();
 #void compile(String inputFile, String outputFile);
+#int getItemsRead();
 }
 
 

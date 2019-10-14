@@ -1,5 +1,6 @@
 package scot.carricksoftware.hansen.passone;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
@@ -84,5 +85,9 @@ public class PassOneImplTest extends HansenPassBasicChecks {
         Mockito.verify(fileValidatorMock, Mockito.times(1)).validForReading(RANDOM_TEST_STRING);
     }
 
-    
+    @Test
+    public void whenICreateAnewObject_theItemsReadCountIsZero() {
+        Assert.assertEquals(0,passOne.getItemsRead());
+    }
+
 }

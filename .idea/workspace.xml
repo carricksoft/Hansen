@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="HansenPass if input five is valid then checks output file can be read">
+    <list default="true" id="395a4e08-5550-4f52-b8ad-549954de05aa" name="Default" comment="HansenPass tests on input file">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Diagrams/PassOne.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/TestConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Diagrams/HansenPass.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Diagrams/HansenPass.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Diagrams/PassTwo.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Diagrams/PassTwo.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passone/PassOneImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/passone/PassOneImplTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,7 +121,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/writers/factories" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/Diagrams" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -127,6 +130,13 @@
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="scot.carricksoftware.hansen.logger" />
+      <recent name="scot.carricksoftware.hansen" />
+      <recent name="scot.carricksoftware.hansen.filehelpers" />
+      <recent name="scot.carricksoftware.hansen.passtwo" />
+      <recent name="scot.carricksoftware.hansen.passone" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="scot.carricksoftware.hansen.filehelpers" />
       <recent name="scot.carricksoftware.hansen" />
@@ -144,13 +154,9 @@
       <recent name="scot.carricksoftware.toolbox.writers.factories" />
       <recent name="scot.carricksoftware.toolbox.holdings" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/io" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Diagrams/holdings" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo" />
       <recent name="$PROJECT_DIR$/src/main/resources/Diagrams" />
+      <recent name="$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/passtwo" />
       <recent name="$PROJECT_DIR$/src/main/resources/Diagrams/io" />
       <recent name="$PROJECT_DIR$/src/main/resources/Diagrams/interpreters" />
       <recent name="$PROJECT_DIR$/src/main/resources/Diagrams/factories" />
@@ -162,12 +168,9 @@
       <recent name="scot.carricksoftware.toolbox.io.factories.pbn.converters" />
       <recent name="scot.carricksoftware.toolbox.io.factories.pbn" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="scot.carricksoftware.hansen.logger" />
-      <recent name="scot.carricksoftware.hansen" />
-      <recent name="scot.carricksoftware.hansen.filehelpers" />
-      <recent name="scot.carricksoftware.hansen.passtwo" />
-      <recent name="scot.carricksoftware.hansen.passone" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/scot/carricksoftware/toolbox/io" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Diagrams/holdings" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,11 +306,11 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_andValidateForReadingFailesThenTheSecondFileIsNotValidatedForWriting" />
-      <item itemvalue="Spring Boot.ToolboxApplication" />
       <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_anddTheFirstFileIsNullItIsNotTestedForValidReading" />
       <item itemvalue="JUnit.PassOneImplTest.whenICallCompile_anddTheFirstFileIsAPaddedEmptyStringItIsNotTestedForValidReading" />
       <item itemvalue="JUnit.PassOneImplTest.whenICallCompileOnAPaddedvalidString_theInputFileNameIsValidatedForReading" />
       <item itemvalue="JUnit.TestSuite" />
+      <item itemvalue="Spring Boot.ToolboxApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -787,14 +790,10 @@
       <workItem from="1569535231225" duration="1474000" />
       <workItem from="1569687713986" duration="18000" />
       <workItem from="1569687927293" duration="3613000" />
-      <workItem from="1569695810232" duration="1536000" />
-    </task>
-    <task id="LOCAL-00838" summary="Start of Simplification (2) - warnings issue">
-      <created>1563309545711</created>
-      <option name="number" value="00838" />
-      <option name="presentableId" value="LOCAL-00838" />
-      <option name="project" value="LOCAL" />
-      <updated>1563309545712</updated>
+      <workItem from="1569695810232" duration="3384000" />
+      <workItem from="1569875694825" duration="13000" />
+      <workItem from="1570988574773" duration="1592000" />
+      <workItem from="1570993865610" duration="757000" />
     </task>
     <task id="LOCAL-00839" summary="Start of Simplification (2) - warnings issues(2)">
       <created>1563309801135</created>
@@ -1132,7 +1131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569694237066</updated>
     </task>
-    <option name="localTasksCounter" value="887" />
+    <task id="LOCAL-00887" summary="HansenPass tests on input file">
+      <created>1569697548458</created>
+      <option name="number" value="00887" />
+      <option name="presentableId" value="LOCAL-00887" />
+      <option name="project" value="LOCAL" />
+      <updated>1569697548459</updated>
+    </task>
+    <option name="localTasksCounter" value="888" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1175,7 +1181,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Using lineload to get tournament record" />
     <MESSAGE value="Next stage of factories" />
     <MESSAGE value="PBNFileLineLoaderFactory" />
     <MESSAGE value="Another new start" />
@@ -1200,7 +1205,8 @@
     <MESSAGE value="Fixing checkstyle annoyance on method being over-ridden" />
     <MESSAGE value="Fixing checkstyle annoyance on method being over-ridden- #2 (using a supression at the method)" />
     <MESSAGE value="HansenPass if input five is valid then checks output file can be read" />
-    <option name="LAST_COMMIT_MESSAGE" value="HansenPass if input five is valid then checks output file can be read" />
+    <MESSAGE value="HansenPass tests on input file" />
+    <option name="LAST_COMMIT_MESSAGE" value="HansenPass tests on input file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1614,21 +1620,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/scot/carricksoftware/hansen/readers/filereaders/readers/filereaders/PBNFileReaderImplTest.java</url>
           <line>38</line>
           <option name="timeStamp" value="420" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="421" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="424" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/scot/carricksoftware/hansen/HansenPassImpl.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="425" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

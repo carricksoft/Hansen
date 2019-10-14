@@ -6,17 +6,22 @@ import scot.carricksoftware.hansen.logger.ApplicationLogger;
 
 public abstract class HansenPassImpl implements HansenPass {
 
-    private static final String EMPTY_STRING = "";
     private final ApplicationLogger logger;
     private final FileValidator fileValidator;
+    private final int itemsRead;
 
     protected HansenPassImpl(final ApplicationFactory applicationFactory) {
         logger = applicationFactory.getApplicationLogger();
         fileValidator = applicationFactory.getFileValidator();
+        itemsRead = 0;
     }
 
     public final int getErrorsCount() {
         return 0;
+    }
+
+    public final int getItemsRead() {
+        return itemsRead;
     }
 
    @SuppressWarnings("checkstyle:DesignForExtension")

@@ -1,0 +1,28 @@
+@startuml
+
+
+package hansen {
+
+interface HansenPass {
+
+}
+
+}
+
+package passOne {
+
+interface PassOne {
+}
+
+
+class PassOneImpl{
+
+}
+
+PassOneImpl --|> PassOne: implements
+PassOne...|> HansenPass: extends
+
+}
+
+
+@enduml

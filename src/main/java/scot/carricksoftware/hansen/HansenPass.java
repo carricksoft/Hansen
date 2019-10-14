@@ -6,4 +6,6 @@ public interface HansenPass {
 
     void compile(String inputFileName, String outputFileName);
 
+    int getItemsRead();
+
 }
